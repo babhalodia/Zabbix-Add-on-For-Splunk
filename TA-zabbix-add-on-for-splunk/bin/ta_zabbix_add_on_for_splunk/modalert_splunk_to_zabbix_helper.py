@@ -61,10 +61,10 @@ def process_event(helper, *args, **kwargs):
     final_zabbix_host = zabbix_server_url_ip
     final_zabbix_port = zabbix_server_port
 
-    if(zabbix_host != ""):
+    if zabbix_host is not None and zabbix_host != "":
         final_zabbix_host = zabbix_host
         
-    if(zabbix_port != ""):
+    if zabbix_port is not None and zabbix_port != "":
         final_zabbix_port = zabbix_port
 
     
@@ -75,23 +75,20 @@ def process_event(helper, *args, **kwargs):
         if event.get("zabbix_key")!= None:
             #helper.log_info("event={}".format(event))
             for key in event.keys():
-                if key != "zabbix_key" and not key.startswith("__mv_") and key != "rid" and key!="time":
-                    if event.get("time")!=None:
-                        m = ZabbixMetric(event.get('zabbix_key'), key, event.get(key),int(event.get("time")))
+                if key != "zabbix_key" and not key.startswith("__mv_") and key != "rid" and key != "time":
+                    if event.get("time") is not None:
+                        m = ZabbixMetric(event.get('zabbix_key'), key, event.get(key), int(event.get("time")))
                     else:
                         m = ZabbixMetric(event.get('zabbix_key'), key, event.get(key))
                     metrics.append(m)
         else:
             helper.log_info("\"{}\" is not containing zabbix_key value".format(event))
     helper.log_debug(metrics)    
-    zbx = ZabbixSender(final_zabbix_host,int(final_zabbix_port))
+    zbx = ZabbixSender(final_zabbix_host, int(final_zabbix_port))
     helper.log_debug(zbx)
     zabbix_response = zbx.send(metrics)
-    helper.log_info("Zabbix Response "+str(zabbix_response))
+    helper.log_info("Zabbix Response " + str(zabbix_response))
 
     # TODO: Implement your alert action logic here
     return 0
 
-
-    # TODO: Implement your alert action logic here
-    return 0
