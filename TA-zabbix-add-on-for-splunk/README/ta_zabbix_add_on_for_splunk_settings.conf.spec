@@ -1,3 +1,6 @@
 [additional_parameters]
 zabbix_server_url_ip = 
-zabbix_server_port = 
+zabbix_server_port =
+
+[logging]
+loglevel =

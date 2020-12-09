@@ -12,6 +12,43 @@
             "description": "Set up your add-on",
             "tabs": [
                 {
+                    "name": "logging",
+                    "entity": [
+                        {
+                            "options": {
+                                "disableSearch": true,
+                                "autoCompleteFields": [
+                                    {
+                                        "label": "DEBUG",
+                                        "value": "DEBUG"
+                                    },
+                                    {
+                                        "label": "INFO",
+                                        "value": "INFO"
+                                    },
+                                    {
+                                        "label": "WARNING",
+                                        "value": "WARNING"
+                                    },
+                                    {
+                                        "label": "ERROR",
+                                        "value": "ERROR"
+                                    },
+                                    {
+                                        "label": "CRITICAL",
+                                        "value": "CRITICAL"
+                                    }
+                                ]
+                            },
+                            "label": "Log level",
+                            "type": "singleSelect",
+                            "field": "loglevel",
+                            "defaultValue": "INFO"
+                        }
+                    ],
+                    "title": "Logging"
+                },
+                {
                     "name": "additional_parameters",
                     "title": "Add-on Settings",
                     "entity": [
