@@ -1,0 +1,68 @@
+# This is a basic workflow to generate build
+name: "pre-release"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for every branch
+on:
+  push:
+    branches:
+      - '*'         # matches every branch that doesn't contain a '/'
+      - '*/*'       # matches every branch containing a single '/'
+      - '**'        # matches every branch
+  workflow_dispatch:
+    inputs:
+      comment:
+        description: 'Add comment for manual workflow execution.'
+        required: false
+        default: 'Manual execution of Github workflow.'
+
+jobs:
+  pre-release:
+    name: "Pre Release"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      # ...
+      - name: "Generate App and Add-on Build"
+        run: |
+          echo "Started generating builds."
+      
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+        id: extract_branch
+      
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ steps.extract_branch.outputs.branch }}
+          path: repodir
+            
+      
+      - name: "Generate Add-on Build"
+        run: |
+          cd repodir
+          find TA-zabbix-add-on-for-splunk -type f -exec chmod 644 '{}' \;
+          find TA-zabbix-add-on-for-splunk -type d -exec chmod 755 '{}' \;
+          find TA-zabbix-add-on-for-splunk -type f -name *.sh -exec chmod +x '{}' \;
+          tar -czf TA-zabbix-add-on-for-splunk.tgz TA-zabbix-add-on-for-splunk
+          cd ..
+          
+      - uses: actions/upload-artifact@v2
+        with:
+          name: "build"
+          path: |
+            repodir/TA-zabbix-add-on-for-splunk.tgz
+      
+      - uses: splunk/appinspect-cli-action@v1
+        if: always()
+        with:
+          app_path: 'repodir/TA-zabbix-add-on-for-splunk.tgz'
+          result_file: 'repodir/ta-appinspect-mode-test.json'
+          
+      - uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: "app_inspect_reports"
+          path: |
+            repodir/ta-appinspect-mode-test.json
+            
