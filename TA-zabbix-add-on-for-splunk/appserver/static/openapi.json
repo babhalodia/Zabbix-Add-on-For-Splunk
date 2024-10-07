@@ -1,0 +1,573 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "TA-zabbix-add-on-for-splunk",
+        "version": "1.0.0",
+        "description": "Zabbix Add-on for Splunk",
+        "contact": {
+            "name": "Data Elicit Solutions Pvt. Ltd.(splunk.support@dataelicit.com)"
+        }
+    },
+    "servers": [
+        {
+            "url": "https://{domain}:{port}/servicesNS/-/TA-zabbix-add-on-for-splunk",
+            "variables": {
+                "domain": {
+                    "default": "localhost"
+                },
+                "port": {
+                    "default": "8089"
+                }
+            },
+            "description": "Access via management interface"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "logging": {
+                "type": "object",
+                "properties": {
+                    "loglevel": {
+                        "type": "string",
+                        "enum": [
+                            "DEBUG",
+                            "INFO",
+                            "WARNING",
+                            "ERROR",
+                            "CRITICAL"
+                        ]
+                    }
+                }
+            },
+            "logging_without_name": {
+                "type": "object",
+                "properties": {
+                    "loglevel": {
+                        "type": "string",
+                        "enum": [
+                            "DEBUG",
+                            "INFO",
+                            "WARNING",
+                            "ERROR",
+                            "CRITICAL"
+                        ]
+                    }
+                }
+            },
+            "additional_parameters": {
+                "type": "object",
+                "properties": {
+                    "zabbix_server_url_ip": {
+                        "type": "string"
+                    },
+                    "zabbix_web_ui_protocol": {
+                        "type": "string"
+                    },
+                    "zabbix_http_port_web_ui_": {
+                        "type": "string"
+                    },
+                    "zabbix_server_trapper_port": {
+                        "type": "string"
+                    }
+                }
+            },
+            "additional_parameters_without_name": {
+                "type": "object",
+                "properties": {
+                    "zabbix_server_url_ip": {
+                        "type": "string"
+                    },
+                    "zabbix_web_ui_protocol": {
+                        "type": "string"
+                    },
+                    "zabbix_http_port_web_ui_": {
+                        "type": "string"
+                    },
+                    "zabbix_server_trapper_port": {
+                        "type": "string"
+                    }
+                }
+            },
+            "zabbix_audit_logs": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "interval": {
+                        "type": "string"
+                    },
+                    "index": {
+                        "type": "string"
+                    },
+                    "api_key": {
+                        "type": "string"
+                    },
+                    "disabled": {
+                        "type": "string",
+                        "enum": [
+                            "False",
+                            "True"
+                        ]
+                    }
+                }
+            },
+            "zabbix_audit_logs_without_name": {
+                "type": "object",
+                "properties": {
+                    "interval": {
+                        "type": "string"
+                    },
+                    "index": {
+                        "type": "string"
+                    },
+                    "api_key": {
+                        "type": "string"
+                    },
+                    "disabled": {
+                        "type": "string",
+                        "enum": [
+                            "False",
+                            "True"
+                        ]
+                    }
+                }
+            },
+            "zabbix_audit_logs_without_disabled": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "interval": {
+                        "type": "string"
+                    },
+                    "index": {
+                        "type": "string"
+                    },
+                    "api_key": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "securitySchemes": {
+            "BasicAuth": {
+                "type": "http",
+                "scheme": "basic"
+            }
+        }
+    },
+    "paths": {
+        "/TA_zabbix_add_on_for_splunk_settings/logging": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Get list of items for logging",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/logging_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Get list of items for logging",
+                "deprecated": false
+            },
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Create item in logging",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/logging_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Create item in logging",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "$ref": "#/components/schemas/logging"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "deprecated": false
+            },
+            "parameters": [
+                {
+                    "name": "output_mode",
+                    "in": "query",
+                    "required": true,
+                    "description": "Output mode",
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "json"
+                        ],
+                        "default": "json"
+                    }
+                }
+            ]
+        },
+        "/TA_zabbix_add_on_for_splunk_settings/additional_parameters": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Get list of items for additional_parameters",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/additional_parameters_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Get list of items for additional_parameters",
+                "deprecated": false
+            },
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Create item in additional_parameters",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/additional_parameters_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Create item in additional_parameters",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "$ref": "#/components/schemas/additional_parameters"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "deprecated": false
+            },
+            "parameters": [
+                {
+                    "name": "output_mode",
+                    "in": "query",
+                    "required": true,
+                    "description": "Output mode",
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "json"
+                        ],
+                        "default": "json"
+                    }
+                }
+            ]
+        },
+        "/TA_zabbix_add_on_for_splunk_zabbix_audit_logs": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Get list of items for zabbix_audit_logs",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/zabbix_audit_logs_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Get list of items for zabbix_audit_logs",
+                "deprecated": false
+            },
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Create item in zabbix_audit_logs",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/zabbix_audit_logs_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Create item in zabbix_audit_logs",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "$ref": "#/components/schemas/zabbix_audit_logs_without_disabled"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "deprecated": false
+            },
+            "parameters": [
+                {
+                    "name": "output_mode",
+                    "in": "query",
+                    "required": true,
+                    "description": "Output mode",
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "json"
+                        ],
+                        "default": "json"
+                    }
+                }
+            ]
+        },
+        "/TA_zabbix_add_on_for_splunk_zabbix_audit_logs/{name}": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Get zabbix_audit_logs item details",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/zabbix_audit_logs_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Get zabbix_audit_logs item details",
+                "deprecated": false
+            },
+            "post": {
+                "responses": {
+                    "200": {
+                        "description": "Update zabbix_audit_logs item",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/zabbix_audit_logs_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Update zabbix_audit_logs item",
+                "requestBody": {
+                    "content": {
+                        "application/x-www-form-urlencoded": {
+                            "schema": {
+                                "$ref": "#/components/schemas/zabbix_audit_logs_without_name"
+                            }
+                        }
+                    },
+                    "required": false
+                },
+                "deprecated": false
+            },
+            "delete": {
+                "responses": {
+                    "200": {
+                        "description": "Delete zabbix_audit_logs item",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "entry": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": "string"
+                                                    },
+                                                    "content": {
+                                                        "$ref": "#/components/schemas/zabbix_audit_logs_without_name"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": "Delete zabbix_audit_logs item",
+                "deprecated": false
+            },
+            "parameters": [
+                {
+                    "name": "name",
+                    "in": "path",
+                    "required": true,
+                    "description": "The name of the item to operate on",
+                    "schema": {
+                        "type": "string"
+                    }
+                },
+                {
+                    "name": "output_mode",
+                    "in": "query",
+                    "required": true,
+                    "description": "Output mode",
+                    "schema": {
+                        "type": "string",
+                        "enum": [
+                            "json"
+                        ],
+                        "default": "json"
+                    }
+                }
+            ]
+        }
+    },
+    "security": [
+        {
+            "BasicAuth": []
+        }
+    ]
+}

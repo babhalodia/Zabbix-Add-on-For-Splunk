@@ -1,10 +1,11 @@
 {
     "meta": {
         "name": "TA-zabbix-add-on-for-splunk",
-        "displayName": "Zabbix Add-on For Splunk",
-        "version": "1.0.4",
-        "apiVersion": "3.0.0",
-        "restRoot": "TA_zabbix_add_on_for_splunk"
+        "displayName": "Zabbix Add-on for Splunk",
+        "version": "1.0.0",
+        "restRoot": "TA_zabbix_add_on_for_splunk",
+        "_uccVersion": "5.39.0",
+        "schemaVersion": "0.0.3"
     },
     "pages": {
         "configuration": {
@@ -13,8 +14,12 @@
             "tabs": [
                 {
                     "name": "logging",
+                    "title": "Logging",
                     "entity": [
                         {
+                            "field": "loglevel",
+                            "label": "Log level",
+                            "type": "singleSelect",
                             "options": {
                                 "disableSearch": true,
                                 "autoCompleteFields": [
@@ -40,13 +45,9 @@
                                     }
                                 ]
                             },
-                            "label": "Log level",
-                            "type": "singleSelect",
-                            "field": "loglevel",
                             "defaultValue": "INFO"
                         }
-                    ],
-                    "title": "Logging"
+                    ]
                 },
                 {
                     "name": "additional_parameters",
@@ -69,12 +70,176 @@
                             ]
                         },
                         {
-                            "field": "zabbix_server_port",
-                            "label": "Zabbix Server Port",
+                            "field": "zabbix_web_ui_protocol",
+                            "label": "Zabbix Web UI Protocol",
+                            "type": "text",
+                            "help": "",
+                            "required": false,
+                            "defaultValue": "HTTP",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "minLength": 0,
+                                    "maxLength": 8192,
+                                    "errorMsg": "Max length of text input is 8192"
+                                }
+                            ],
+                            "options": {
+                                "placeholder": "HTTP/HTTPS"
+                            }
+                        },
+                        {
+                            "field": "zabbix_http_port_web_ui_",
+                            "label": "Zabbix HTTP Port(Web UI)",
+                            "type": "text",
+                            "help": "",
+                            "required": true,
+                            "defaultValue": "80",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "minLength": 0,
+                                    "maxLength": 8192,
+                                    "errorMsg": "Max length of text input is 8192"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "zabbix_server_trapper_port",
+                            "label": "Zabbix Server Trapper Port",
                             "type": "text",
                             "help": "",
                             "required": true,
                             "defaultValue": "10051",
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "minLength": 0,
+                                    "maxLength": 8192,
+                                    "errorMsg": "Max length of text input is 8192"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "inputs": {
+            "title": "Inputs",
+            "description": "Manage your data inputs",
+            "table": {
+                "header": [
+                    {
+                        "field": "name",
+                        "label": "Name"
+                    },
+                    {
+                        "field": "interval",
+                        "label": "Interval"
+                    },
+                    {
+                        "field": "index",
+                        "label": "Index"
+                    },
+                    {
+                        "field": "disabled",
+                        "label": "Status"
+                    }
+                ],
+                "moreInfo": [
+                    {
+                        "field": "name",
+                        "label": "Name"
+                    },
+                    {
+                        "field": "interval",
+                        "label": "Interval"
+                    },
+                    {
+                        "field": "index",
+                        "label": "Index"
+                    },
+                    {
+                        "field": "disabled",
+                        "label": "Status"
+                    },
+                    {
+                        "field": "api_key",
+                        "label": "API Key"
+                    }
+                ],
+                "actions": [
+                    "edit",
+                    "enable",
+                    "delete",
+                    "clone"
+                ]
+            },
+            "services": [
+                {
+                    "name": "zabbix_audit_logs",
+                    "title": "Zabbix Audit Logs",
+                    "entity": [
+                        {
+                            "field": "name",
+                            "label": "Name",
+                            "type": "text",
+                            "help": "Enter a unique name for the data input",
+                            "required": true,
+                            "validators": [
+                                {
+                                    "type": "regex",
+                                    "pattern": "^[a-zA-Z]\\w*$",
+                                    "errorMsg": "Input Name must start with a letter and followed by alphabetic letters, digits or underscores."
+                                },
+                                {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 100,
+                                    "errorMsg": "Length of input name should be between 1 and 100"
+                                }
+                            ]
+                        },
+                        {
+                            "field": "interval",
+                            "label": "Interval",
+                            "type": "text",
+                            "required": true,
+                            "help": "Time interval of input in seconds.",
+                            "validators": [
+                                {
+                                    "type": "regex",
+                                    "pattern": "^\\-[1-9]\\d*$|^\\d*$",
+                                    "errorMsg": "Interval must be an integer."
+                                }
+                            ]
+                        },
+                        {
+                            "field": "index",
+                            "label": "Index",
+                            "type": "singleSelect",
+                            "defaultValue": "default",
+                            "options": {
+                                "endpointUrl": "data/indexes",
+                                "denyList": "^_.*$",
+                                "createSearchChoice": true
+                            },
+                            "required": true,
+                            "validators": [
+                                {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "maxLength": 80,
+                                    "errorMsg": "Length of index name should be between 1 and 80."
+                                }
+                            ]
+                        },
+                        {
+                            "field": "api_key",
+                            "label": "API Key",
+                            "help": "",
+                            "required": true,
+                            "type": "text",
                             "validators": [
                                 {
                                     "type": "string",

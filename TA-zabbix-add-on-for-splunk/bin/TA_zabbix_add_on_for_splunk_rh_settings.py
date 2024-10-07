@@ -12,6 +12,7 @@ from splunk_aoblib.rest_migration import ConfigMigrationHandler
 
 util.remove_http_proxy_env_vars()
 
+
 fields_logging = [
     field.RestField(
         'loglevel',
@@ -22,6 +23,7 @@ fields_logging = [
     )
 ]
 model_logging = RestModel(fields_logging, name='logging')
+
 
 fields_additional_parameters = [
     field.RestField(
@@ -35,7 +37,27 @@ fields_additional_parameters = [
         )
     ), 
     field.RestField(
-        'zabbix_server_port',
+        'zabbix_web_ui_protocol',
+        required=False,
+        encrypted=False,
+        default='HTTP',
+        validator=validator.String(
+            min_len=0, 
+            max_len=8192, 
+        )
+    ), 
+    field.RestField(
+        'zabbix_http_port_web_ui_',
+        required=True,
+        encrypted=False,
+        default='80',
+        validator=validator.String(
+            min_len=0, 
+            max_len=8192, 
+        )
+    ), 
+    field.RestField(
+        'zabbix_server_trapper_port',
         required=True,
         encrypted=False,
         default='10051',
@@ -51,7 +73,7 @@ model_additional_parameters = RestModel(fields_additional_parameters, name='addi
 endpoint = MultipleModel(
     'ta_zabbix_add_on_for_splunk_settings',
     models=[
-        model_logging,
+        model_logging, 
         model_additional_parameters
     ],
 )

@@ -1,0 +1,3953 @@
+{
+  "version": "1.0",
+  "date": "2024-10-01T10:51:26.014485842Z",
+  "hashAlgorithm": "SHA-256",
+  "app": {
+    "id": 5272,
+    "version": "2.0.3",
+    "files": [
+      {
+        "path": "app.manifest",
+        "hash": "ee0fb1ef5779c860ae04ba1ca34cc93496900a643e91c8b8aa082e90e59c6128"
+      },
+      {
+        "path": "README.txt",
+        "hash": "27b377d91bfdb5d5321571612e3988913fb2430e860040844b1a437cd982a35e"
+      },
+      {
+        "path": "static/appIcon.png",
+        "hash": "f52c456d60716374ff2d9d2f8d14fe0ef87bc5af934485b82b7445bc868c6038"
+      },
+      {
+        "path": "static/appIconAlt.png",
+        "hash": "f52c456d60716374ff2d9d2f8d14fe0ef87bc5af934485b82b7445bc868c6038"
+      },
+      {
+        "path": "static/appIconAlt_2x.png",
+        "hash": "7702795635ab5129396dec60211a590fb67f38de40973bdd201dba99c1529b0d"
+      },
+      {
+        "path": "static/appIcon_2x.png",
+        "hash": "7702795635ab5129396dec60211a590fb67f38de40973bdd201dba99c1529b0d"
+      },
+      {
+        "path": "README/addon_builder.conf.spec",
+        "hash": "128e37535ebd118daf4bc2cf657728cd671a10b8ebba18e519e7bdbd8d824b6c"
+      },
+      {
+        "path": "README/alert_actions.conf.spec",
+        "hash": "d2435f8642a44f6aa2b57d9fc8ea753d235b3fe28cf92267fcfa8ec58dccbba2"
+      },
+      {
+        "path": "README/inputs.conf.spec",
+        "hash": "fee2f842b54d24986fec409316da03b7d58772116603a153dcb304b8a8bb491d"
+      },
+      {
+        "path": "README/ta_zabbix_add_on_for_splunk_settings.conf.spec",
+        "hash": "db7aeac6d9e267896f758795e2512b2e1cbcd27ae3a769715f906cc15ea7842d"
+      },
+      {
+        "path": "metadata/default.meta",
+        "hash": "ec77fd0d519d46fff12b184bb98a3fbc6ab4ff95aec40d6bd03d2a5ce173b2a2"
+      },
+      {
+        "path": "default/addon_builder.conf",
+        "hash": "8331c241f727bb14968491a7466694a16378f0f2e2a3ae4ff2c1aeafa21153ff"
+      },
+      {
+        "path": "default/alert_actions.conf",
+        "hash": "3ce33e29410fec157b327740a6b4616e2c3edfdeb7730f8e425e6ff893fb4cd3"
+      },
+      {
+        "path": "default/app.conf",
+        "hash": "e8b4ff0e09b303689e6dedb6f60921c69654065d09998d1eb7fe7b034c9c8b90"
+      },
+      {
+        "path": "default/eventtypes.conf",
+        "hash": "dba5166ad9db9ba648c1032ebbd34dcd0d085b50023b839ef5c68ca1db93a563"
+      },
+      {
+        "path": "default/inputs.conf",
+        "hash": "c5aa43f0f08bcd4a8cb871f5236579b8d9c7da62d1a413e7ba25409cd441d6e3"
+      },
+      {
+        "path": "default/props.conf",
+        "hash": "58943d890fe59806ba7d394e4eb7fa931fccbecebbcf0a9b58f6fec775653d5e"
+      },
+      {
+        "path": "default/restmap.conf",
+        "hash": "2baf747a00179b9c7dc4eacc2888a5b9e4270c6fb60e79b4a4c06d835127ba62"
+      },
+      {
+        "path": "default/server.conf",
+        "hash": "8a27cc75fa0ff4adfac3a2261a6de659b774540ac82743328e0a1c7adff24a09"
+      },
+      {
+        "path": "default/server.conf.bak",
+        "hash": "f2f4af9fa2894da6e86a8de41c790dfe5005d586b115c8712d7ad0bafcadc646"
+      },
+      {
+        "path": "default/tags.conf",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "default/ta_zabbix_add_on_for_splunk_settings.conf",
+        "hash": "1c32fa8b7ad6d198e0eccdcc088c6f735dda1b3a57f5613a00cfff8dc2c011ef"
+      },
+      {
+        "path": "default/web.conf",
+        "hash": "6b59bf80baa260c0fc3a0347f4469a559a15a4fa7167faa82ea38da14310496f"
+      },
+      {
+        "path": "default/data/ui/views/configuration.xml",
+        "hash": "a6d701e5acfbbe6df9b52a2117de5711ca792c39391907a1a05bf883e5d113c2"
+      },
+      {
+        "path": "default/data/ui/views/inputs.xml",
+        "hash": "a45a52ddc95febe5f08159adefcdc5d98bd6cf756afcd6fec0eac1cc8ad34c56"
+      },
+      {
+        "path": "default/data/ui/nav/default.xml",
+        "hash": "b2a4ca4c371eee0af7a2ad1901949f38005cd95b36d712fae63de508b6f2f2f7"
+      },
+      {
+        "path": "default/data/ui/alerts/splunk_to_zabbix.html",
+        "hash": "10c2b2fafe968fdb0e90e71a42d1492eca672d721f5d19e65e50396715a0e295"
+      },
+      {
+        "path": "bin/input_module_zabbix_audit_logs.py",
+        "hash": "6763153fd6ada1358efcad96d2021f44e922e1d745ad1eba9ace039aa4c5543c"
+      },
+      {
+        "path": "bin/splunk_to_zabbix.py",
+        "hash": "a88e3d76989275b4e193fbbdc8d9038818b21c8d3fbb8a44d7bea5fe48a80cb9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk_declare.py",
+        "hash": "31d884f9595cc9496d5475c7ba8924c0aa546b18a87597dc72f106d3a95ee83f"
+      },
+      {
+        "path": "bin/TA_zabbix_add_on_for_splunk_rh_settings.py",
+        "hash": "6c75189dda79e7ec2c47a1aafdc162445146566110e7d0d4f79b01da8eeba1a2"
+      },
+      {
+        "path": "bin/TA_zabbix_add_on_for_splunk_rh_zabbix_audit_logs.py",
+        "hash": "b0f4046d5ed2a8257c1c4014ffb7dde3fd6a5a891cdaa07e85d76565ae8dc000"
+      },
+      {
+        "path": "bin/zabbix_audit_logs.py",
+        "hash": "0877c286d3b67fb262ca2d3ed61589372c22b169437288a100d31ede753c958f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/alert_actions_base.py",
+        "hash": "3e6f762159e36f6c11538ddff5ad03164a907a549d86417650dc495f54b9d9fb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/cim_actions.py",
+        "hash": "3e920830fa3ee5e66cca974052b949f1ed00a0e20eb1546d43ccc652ead28a40"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/logging_helper.py",
+        "hash": "45b67221869097f3bf8f9ab2eb638566a3a22d69968aafd5e4688e1f8327845c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/modalert_splunk_to_zabbix_helper.py",
+        "hash": "77fa7d10684aeba38c0625812a2d0c8f7633d7eb556d411040f3f2735665542c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator.py",
+        "hash": "7a5e5c0048284c4a5140deb9b4ec4684496e7be09c70cbf4c6897e27633039cd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six.py",
+        "hash": "4ce39f422ee71467ccac8bed76beb05f8c321c7f0ceda9279ae2dfa3670106b3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/socks.py",
+        "hash": "c4e627dbbb7d206adb4c1cd6b1452e3dad1806ea6582253293390e0795798856"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sockshandler.py",
+        "hash": "d926068fea70b7592380ba19026c9e6845c27990d64667d54bf406ea412b1ad6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/typing_extensions.py",
+        "hash": "ce42d78e130c4a62af2cbaa3f8c0ae9db49c18cbbb90f2d9614b0bba7dfc234d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/_pyrsistent_version.py",
+        "hash": "abd0e2493f6b777b52bdc3dfe5d997512d90874fb6b52ffe0f5da239b6ee45bf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/_yaml/__init__.py",
+        "hash": "d3801eff9a2cc5a8692476b75c165401fe308ba5d7df6811f03e97ea9eb81840"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp-3.15.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp-3.15.0.dist-info/LICENSE",
+        "hash": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp-3.15.0.dist-info/METADATA",
+        "hash": "7a5efb765553a97a0c4684f1ab021da0c3663409044429fdbfdf9794a8c97c05"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp-3.15.0.dist-info/RECORD",
+        "hash": "d21be03c5b51be8c2622e662dbe83337b46a762a5232631f98157c026a76ac7b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp-3.15.0.dist-info/top_level.txt",
+        "hash": "8806dda121df686a817d56f65ee47d26a4901c2a0eb0eb46eb2f42fcb4a9a85c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp-3.15.0.dist-info/WHEEL",
+        "hash": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp/py310compat.py",
+        "hash": "1d01b821ff9e239bf8453f3651a824ecfb8bb1b9c9ec72a08f4690286440a7c3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/zipp/__init__.py",
+        "hash": "64d8c7b8e29a16682b48fbed2251d814d0af10d1ea498baa11592d0608fd72ef"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/composer.py",
+        "hash": "fcaa37d16afa783594794a5ab94193dcb720f503c19ce3d59539c8311189f453"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/constructor.py",
+        "hash": "90d8247da78b524c10618fd0e857f54f3d97570fe91b5c5513d024ef3faf88b0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/cyaml.py",
+        "hash": "e99ac01bd7c062f7557b614aff0d21997a06ed962ca185306a91bc0a20bbd87d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/dumper.py",
+        "hash": "3cb72d66563064ba7b5e679477046ebf89d8399d940670c8532f3e94a7cb17ea"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/emitter.py",
+        "hash": "8e086d694ede170837d5b1b407b45979aff6f40762f422a65eafd08e04290a44"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/error.py",
+        "hash": "021f73fada072546c4f63f8cf18a7181244ce4280b09cc15cc980b2d1176171a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/events.py",
+        "hash": "e74fd392c810884e2ea7e94aa3f57e9c1cbeb402319083d0c58e6a0e1282787c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/loader.py",
+        "hash": "5156becc8aa6905482218abf3e04869b835226db4763645fff3438fdbd5f1cdd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/nodes.py",
+        "hash": "80f28d8fca4a09d87677882bde021820d9cf39a3b11a12405226211919cf13ce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/parser.py",
+        "hash": "8a55a9e6fbe0a07146cef3990c8b45a068c3e83e369e1959ad9ca30306b4a09a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/reader.py",
+        "hash": "d1d9b38ab3a20c6e17a38d519ee412ecaf6b918df18c78956ac7c330d4ea08dc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/representer.py",
+        "hash": "22e58ff9c016f6c1ca1274b4802a926bcf78935060e1c813c5a0f021c6d143e6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/resolver.py",
+        "hash": "f4bf9561f9b89961f1503d558385fbae30d12bfed565de9bf76c33abb63620a6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/scanner.py",
+        "hash": "60433788b652690c17710460da5d91e0c753d3318fd85f5e1e42862a71f25906"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/serializer.py",
+        "hash": "0a1b85826854d35863e31808f0668abfabdf33606e8f06bd8bb7761401e3edc0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/tokens.py",
+        "hash": "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/yaml/__init__.py",
+        "hash": "6e1974e6a49e3bed59c654918c6aef9769bd9eb5dbd67f7e1906ad4cdd0caea7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/LICENSE.txt",
+        "hash": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/METADATA",
+        "hash": "7cde3b41a3e5cd868e1c54e0b37053de059af3fcbb09430c056f305f6a9c285d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/RECORD",
+        "hash": "37e231173444e1ac26b32eb05b024aca19d141b66248669e937b20443f1de58b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/top_level.txt",
+        "hash": "10c8972f6b0aad3726accc481d3a9d737113e78a50236634ef62dec4511e9afa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3-1.26.19.dist-info/WHEEL",
+        "hash": "0d96a30f8a702d6b9eef40807dced86b14f5c0b51c88d06f37f4d372f5e996d1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/connection.py",
+        "hash": "b6d200f74f41adb4d4cf092a11efd3cd9561e0938e8fb83ad58b1e8b69abc068"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/connectionpool.py",
+        "hash": "58edb370dcf1adfedd6d85c150a5ab3125536b22587cdc6edd1992474ef8bd49"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/exceptions.py",
+        "hash": "d0c9e7a372874cd7d745f63beb7f0db9f38f9146fa9973a6f8baa3fb8c76c3c0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/fields.py",
+        "hash": "92f2c30a0fc9987d652e3514118fc52d2f14858ee106f0cfb951136d8f2676b3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/filepost.py",
+        "hash": "e5bfeaaa04475652fbb8bb5d018073061f861e653901f255b7fd8dd174b73de6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/poolmanager.py",
+        "hash": "696ca15d1b4d3b82549c249556a29329077c1174ef526d5537da60b366dc38da"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/request.py",
+        "hash": "61358536bed023087b1355bd75d7bd2ccefbbf65564c9e55efc5ee4d3c3b0f50"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/response.py",
+        "hash": "50f80b9a71e3e33ef56671fc8af60eca77004e27d33b0f4542e914a839dc9027"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/_collections.py",
+        "hash": "a72012249856ef074ea6a263f50240f05c8645fafc13cb94521a94be1174ef6f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/_version.py",
+        "hash": "0f345bb7f144d709b58cafa0d6437ba29168eb4024b459f704c101f333d14695"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/__init__.py",
+        "hash": "8972dc6222724a7d0635b58e3990c30298012f52603f8e0467c8b5efad12f0c7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/connection.py",
+        "hash": "e4bc760753d6dbd2b1067d93d3190dd420604416b780654904aa10a11a201159"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/proxy.py",
+        "hash": "cd4bcf3c226ba7a74e17437818055b39c97aa3ee2e5ca4ab1a24e492be6f512e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/queue.py",
+        "hash": "9d1817f3f797fbf564bf1a17d3de905a8cfc3ecd101d4004c482c263fecf9dc3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/request.py",
+        "hash": "7d688069af29c1d2cb22aa132c1c420b67b879df349aecca5377b71d6593cc54"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/response.py",
+        "hash": "189a60dc4822f6a6895d1c01879c2ff8c36e4566a7e4122ee34a117a8c563f6f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/retry.py",
+        "hash": "e8436f399f0f043ce1f24822c69aa5f6522b6f67711fe93b66605a9c9176360e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/ssltransport.py",
+        "hash": "340faee6b313ac3143142f10cd129410a306d39eb584e0f8a814ebdd9e29bfa1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/ssl_.py",
+        "hash": "734b188920badbbdabeae3e4c50a68e6b60f3fd402d5e47aa08ef4d38818a99a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/ssl_match_hostname.py",
+        "hash": "22be1c65512398093c8140081d64a2ef0b4e3bcdd4098001636c450f5425fd60"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/timeout.py",
+        "hash": "730ab874c93cee624748192d2b59a2609fbce46fb74f74664f6d2fed2142a67a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/url.py",
+        "hash": "90cc4bd64d1df9a426fe2643c3fccc9a7c98ca3ac803f0dbb0ccb7726dd5e793"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/wait.py",
+        "hash": "7ce5f4fdf6a8cc6d8fee25688d0a04d666f277078dc93726fa15c47c5ad3b4b2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/util/__init__.py",
+        "hash": "2449929a6aaa2f26b0f0fe75814226661f06c20f62d7349ef83a2a022b67da77"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/packages/six.py",
+        "hash": "6fd2ccd30057bfb13b4ab6c28c09b8c3037e86b1fe88dc6fd7c2e058d30c28fa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/packages/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/packages/backports/makefile.py",
+        "hash": "9dbcedde2d1a80f54fd3b8eaaa08e16988cc9ae022fd6e44d04cb0662bd53bc1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/packages/backports/weakref_finalize.py",
+        "hash": "b5109a97938084d491c9bd03847a7edfc02d2250ac44ff01c45dcd5feeaba880"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/packages/backports/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/appengine.py",
+        "hash": "e88056ea53cea155310123f0b67e881f50004dee432b794b2427f0c9694b2801"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/ntlmpool.py",
+        "hash": "3657e45bb58c756f338aab9da298c7a16dbdf688350535a2d0878889baae1709"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/pyopenssl.py",
+        "hash": "e00240968f4d9a35a87d8e1d27045ae246d9b91b877cd271bbc3efeb2424d6cb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/securetransport.py",
+        "hash": "d1830c7e81f211cd130700a4220b427f28161a6de8e0c5f3b65c67eb36dabff5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/socks.py",
+        "hash": "6918bd7965e8f5911bf795d4c5e7f8676d421659e78db122028f473ac7a832de"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/_appengine_environ.py",
+        "hash": "6c36f2384856d8228b25c42a00a032ac41cdf9a925b321c52aaeaf17c645b269"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/_securetransport/bindings.py",
+        "hash": "e1793ae2a2243c1b74f40e6af9120552e0e135cf665e29556a99bb5a7627cd1c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/_securetransport/low_level.py",
+        "hash": "076241076fcd44fd36c4ae8309ad4f6bd22ec6b3f0c730f365b8b14246fb53d3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/urllib3/contrib/_securetransport/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/typing_extensions-4.7.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/typing_extensions-4.7.1.dist-info/LICENSE",
+        "hash": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/typing_extensions-4.7.1.dist-info/METADATA",
+        "hash": "d16ef5bba982db8a15609ce26cda2ada5f9b42756853fa76e6e88d840ab939c0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/typing_extensions-4.7.1.dist-info/RECORD",
+        "hash": "618550f2d756c9edecf3e8f3ad89c6e75113f12e03b8a506fe1de0069d8c1909"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/typing_extensions-4.7.1.dist-info/WHEEL",
+        "hash": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_sdk-1.6.18.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_sdk-1.6.18.dist-info/METADATA",
+        "hash": "e440fed47db0c271490adfc3f160a64cf3d7b2a91ad849fa1021ed181576d31d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_sdk-1.6.18.dist-info/RECORD",
+        "hash": "8fd82684be5df8abbe3638765f42a2d548baa7f0027225293b3cdc53b8099bcf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_sdk-1.6.18.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_sdk-1.6.18.dist-info/top_level.txt",
+        "hash": "b5aab66187ce077d6d35e7f05bbdece78c72b6207fb32f1ba5bc8101f9f492bf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_sdk-1.6.18.dist-info/WHEEL",
+        "hash": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_aoblib/rest_helper.py",
+        "hash": "528023609e0345ed22a395105f1dd2f60f17d3d7111de4b0740d079d4d33722a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_aoblib/rest_migration.py",
+        "hash": "54dc20852fa14fcd60fbac84a0213737de0c65a25675bd851eb4780efd0f6504"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_aoblib/setup_util.py",
+        "hash": "63ed1687e52759faa7a9d29b64375e9ad2d0d26ccc035f978ddde84bdc93d016"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_aoblib/utility.py",
+        "hash": "26f237726b63839c0cb4e6bcf0a89cd05cf3a672f929b8d49c90fa0612ee14fb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunk_aoblib/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib-6.0.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib-6.0.0.dist-info/LICENSE",
+        "hash": "300a09380aff55e81cdaec9de51c9a48d9234592f8a7722d34ec26eac83d3d27"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib-6.0.0.dist-info/METADATA",
+        "hash": "29d0b1a47b75e01de9dbc15fb4d4a3a92d7e78856eee52a87012066d7bc756ea"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib-6.0.0.dist-info/RECORD",
+        "hash": "db8b427ea05914f392c359beb7871adb5483340c9e4079b1a710d28b749a5597"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib-6.0.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib-6.0.0.dist-info/WHEEL",
+        "hash": "cb778389a15548d4cf6e0cdf367d27627e6d127d5c5fa5ab75eb43950338c56c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/alert_actions_base.py",
+        "hash": "004dac77f6165c2f7db2bd60e10afccf322f455d5ea0eb7e6b8a853b460c8fcf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/cim_actions.py",
+        "hash": "c5ca32e91e3eb7de8c50fa7ffc1130ce4749446293bf14fa0f00956830e5bad0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/config.py",
+        "hash": "ebd003726d21834c5850a490c05bc2ce2a15b41d9438e485f8e8cfd66135f0c1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/__init__.py",
+        "hash": "3d0b0151c2279b5670d0cfa8c7675c34ed45aa5e88759d86ce999d0e3357acc9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/splunk_aoblib/rest_helper.py",
+        "hash": "6cf0955a7865325fa2a3ae17297cd33343a960d86d1135123c3ef80306aaf0f7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/splunk_aoblib/rest_migration.py",
+        "hash": "c4b3c0d44bfdc4f91b5f28245c9d90fb37d819e963979f4c188eb2f9bab3bc64"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/splunk_aoblib/setup_util.py",
+        "hash": "8cc99cefe62f3d9ec6cde3bd1d7d85938d304484c81673be33c3abdb5d937b97"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/splunk_aoblib/utility.py",
+        "hash": "8fdcf7a6f4468109e61fd4523a08014b545cb6fe6514d4c3e3c11ba8aaf110d8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/splunk_aoblib/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/admin_external.py",
+        "hash": "ce85da90de5134ed076edacd3acb55c514550af4527d26cda6d58aa44d625256"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/base.py",
+        "hash": "fc2f69866047d2b65b7e2c378e65f7e3207ab5d56fa4957eaf32ee3d804c42c5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/base_hook_mixin.py",
+        "hash": "f3194de1ca0b33ae0e6fc19feb60b7734340f7adea1f4f100461b6e4283bf29c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/credentials.py",
+        "hash": "2dd08f00b065f2ecba304e2f7446ba07ba762133fb9d88c8fa9bfba0ba0318e4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/cred_mgmt.py",
+        "hash": "bde261b5f8271246023f93f157a8bcdbdcaa177165543f860c5c9c06a9095d4c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/datainput.py",
+        "hash": "eb9215063a1c78c87b99f952ea487493c2a09d390001e3015089d34202c5a1b6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/eai.py",
+        "hash": "b6437249932053f947d998d66267c06709fe5dba6dde1dbd0be2cbe719b62873"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/entity.py",
+        "hash": "da53a3218582820e551cb6870dd36653dd15dd12739408822694883343ef1ae9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/error.py",
+        "hash": "bfca17f10f4bfac850eb2d423f8447298a9b1151574a15c530df972696d6fa93"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/error_ctl.py",
+        "hash": "9aa4b3293261625056cbb3d0e47ab4f990b522bb6369d0b8b7ccd9b0951b5e17"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/handler.py",
+        "hash": "da7c11949ca66c43ed6ba6167f1692b19e4ea1a419fb8eb874f723989db24595"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/multimodel.py",
+        "hash": "f59b71a2dee7ca96b6fe13566b68cf1444c1bac26567e52769dc702c3fbbe181"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/normaliser.py",
+        "hash": "3677fe302dc9dff58620e09bcee1237619545f7d4e932d53223705007acf141e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/poster.py",
+        "hash": "4c5b57f727a98540eab1dd2d820d8f4664ffb98a1bfc0bcf32cc2492986d5928"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/schema.py",
+        "hash": "eb680825d60e5954a7a1804b454aec52d0ec0567c34ff9f0b22143fc5b81427d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/teardown.py",
+        "hash": "b2847d29442f9e5e6041c3acbc47d52dbe5bf90f9b1c2d89d24348e60e20e016"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/util.py",
+        "hash": "3956555ed38604eca36eba24313d932934fcd3e71e4f09eaeabec8e6c24c36ab"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/validator.py",
+        "hash": "a2d0b175a394bdda35c01859185a3b28738591e83d354d326aa9d5bee0a4bf98"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/__init__.py",
+        "hash": "e7d3910ef0f5e08fcab1f9b41c2702e9f9d02c97fd299373413ec75e0dd901c6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/endpoint/converter.py",
+        "hash": "0fc9f55967835f8e90dc69f1937cc14ed09831e0dd58cb381cd97c6870027a1c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/endpoint/field.py",
+        "hash": "0a3aa70e7a7c671fdf252a63383980ae352d800aae5e204570dbde9d9862dd09"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/endpoint/validator.py",
+        "hash": "7290251c6583ccc232e17d13b7e65c2fc8981b1561ae86dd4af9ca639f2a8e92"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/rest_handler/endpoint/__init__.py",
+        "hash": "a28b42eb2ab0c16bf98fee61928d69a0eb23cb70c117ba480e62154943b0b06e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/modinput_wrapper/base_modinput.py",
+        "hash": "7535011add7c0b98246a027b22f96bddfec68a8bdf12048c6e9e4821afa3499b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/modinput_wrapper/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/global_config/configuration.py",
+        "hash": "ed787983063d51761d710b0d902d0becff331775dc994c34ae48d21230eddd0b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/global_config/schema.py",
+        "hash": "b6fdd7fbaf5cb9e827b204be36367e76865719b5a3bdfd1855351eaf289ac53e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/global_config/__init__.py",
+        "hash": "3c87d389623c6e22527609225de372cd8054afaa80d94c0e2260e8ed2d031cf1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_checkpoint_manager.py",
+        "hash": "56942763897a2505b42f0d6af4185a8480d74b7d1caef7133387d0e957f7c631"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_config.py",
+        "hash": "ef5a05072dfae1996129eeb999d2bef0fd568212e8cfadd7cf1ba4c4999483f7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_consts.py",
+        "hash": "01390241fa1bc0be1d77cc02fe6762ae7f972946c77a5e45454fa8f4e3dc1039"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_data_client.py",
+        "hash": "eb5e2c5694647f4ccaf6d3ab52e47e3a9fa36ea9dc7171bfe332330ff58b12fb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_data_collector.py",
+        "hash": "bcbab392077f29187b63846778d1394d0bdfb9a2242354ff11162a54e0f46f40"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_data_loader.py",
+        "hash": "7b54594a60af77bf366b9bd2e5014d5d0b809d5609a3a7b370eb54097c44e148"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_helper.py",
+        "hash": "e50fdea497e605dd56b5758052a065738c96540d21db2a5090e2cc79421bcb13"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/ta_mod_input.py",
+        "hash": "90442c01ac544b01cf6e577bd4d02485bd97e9f7f4b7bb91be5ab22ef25c9fba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/data_collection/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/common/log.py",
+        "hash": "a1570c4f23cfc0089b608c8b9608b64a040c93ee4d6e9825451385219476ab15"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktaucclib/common/__init__.py",
+        "hash": "a0cee7e5d7abc1d9e27c6e1fa6e7dc06114b5eef4db4b4110518daab91d44928"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib-3.0.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib-3.0.0.dist-info/LICENSE",
+        "hash": "50e4396113babce2d3793aa6e5ececc4861e5209627b28b3fb89628005487d92"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib-3.0.0.dist-info/METADATA",
+        "hash": "64a38c63e8aa4b2d6789a2477f97801668d89a444113a750ec6a22fef8d52407"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib-3.0.0.dist-info/RECORD",
+        "hash": "38d0827e2d0387d71cee30e74057c04488f398ceea235a26e4e099dd19723ea6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib-3.0.0.dist-info/WHEEL",
+        "hash": "cb778389a15548d4cf6e0cdf367d27627e6d127d5c5fa5ab75eb43950338c56c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/credentials.py",
+        "hash": "7592caf3daee6764615595546a5299caaea584872be33e189706121b9342105e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/event_writer.py",
+        "hash": "b51b0ca62141f0d57bdfb72bd2910c1dcbf34cd65d9e3f18f9bd3d882863047d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/file_monitor.py",
+        "hash": "46d019583fd328947deed30f0fe415285234aca7e631d9f35d65a338ac4a74a9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/kv_client.py",
+        "hash": "23397c113691c63fd9dd966ee6f0b2caf0de9d4f6bf6badd3a4df314ff45dbc3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/modinput.py",
+        "hash": "54c27225081760a0791ee5afcc7ddb556a956e7747c5eefa81beb2ac3233c5b6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/orphan_process_monitor.py",
+        "hash": "0ba84010c5245fcb1a365ccacd343189835cfb42dda43b1e4388f6d56c51a3db"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/rest.py",
+        "hash": "90d2addca75c5cf3c2648c398a157f33d720524bd9c4cb7ff52ad7d41234c7db"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/setting.conf",
+        "hash": "792b0493d7303da57c31440deb768dd360183cd4a11c0a79a5c379bc21b26a7d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/splunk_cluster.py",
+        "hash": "0b1c5b38782b2ae8dbe48a6b7bc28be7c2f736bcf81dd39d7f27eb45d403ead8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/splunk_platform.py",
+        "hash": "e6447ceb2d6c1ecb45f9e0b0f3eccfafe28bbd8421dfc6d7b5f58323af9d6c52"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/state_store.py",
+        "hash": "f8f45deb8e0e5dcdc9b15fa0c4a6c98b3713db92cd6a1ee30485712ebbc483f3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/timer.py",
+        "hash": "0d0cb82e22d1cc81eeef88e94cdbbd9b89dce8f1bbfba12b1efb74a11985e556"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/timer_queue.py",
+        "hash": "90c02e7df0b6a227a6ac2badd29e8ce3f72ea5432b1141b1bc0cf7d1ec9b38e4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/__init__.py",
+        "hash": "51139ee7c30038122adccc6a718ac36a83a31b3db6a2c644773d6add80b33536"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/schedule/job.py",
+        "hash": "3f6518271c9013c6547b67aedb21b8f8f74b1feaf7d2aae39a6749c72d3357ab"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/schedule/scheduler.py",
+        "hash": "b113c9fb080f5df28e2011437db3d5021db2495b6d6b78aa5a8e6f8e96f91926"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/schedule/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/conf_endpoints.py",
+        "hash": "a0c1bc22024913c20ac2bdbbdcc2bd9a27d87643fc782197943fa2fa32626b46"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/conf_manager.py",
+        "hash": "8d0cbcd734bb3badaa946f22587fa5f74a5ecf5c3b34d72d630e6baa92dcda99"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/data_input_endpoints.py",
+        "hash": "dcf9969c1251abd651b8a771b17cfc47fd3de15b52c65527b325e640298ce10f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/property_endpoints.py",
+        "hash": "9437e9021275a3366e50f5e4a4e6c96323bc02c5b2da5b9ce972f83313eb7cad"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/request.py",
+        "hash": "5e77dff3c11a8e6d987e24ab9d1dfab45296281fa2c7c4af6f82d8b123429081"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/ta_conf_manager.py",
+        "hash": "00ace755b8abfba4d1e1de14fcfa93b9b14f44498906d9efd609b6b2843a33d7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/conf_manager/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/concurrent/concurrent_executor.py",
+        "hash": "6a5c84c357edec47da411c03f9a5420d40cfa51b2f8667b54a13e2f98c45bd02"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/concurrent/process_pool.py",
+        "hash": "7352e738c7bd943778baba6403cff2f55e81a7d9ad0bbaf1be4fc4d44fcb2553"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/concurrent/thread_pool.py",
+        "hash": "d88aa29c02af5254b7444509c72121de3b0ae2a983103acd4c36d6db4cfc0315"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/concurrent/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/common/consts.py",
+        "hash": "a5bd652926a6f2d55e87ac881fa93f5cde9e1593bba128a1ba394f3cae1229a5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/common/log.py",
+        "hash": "25673eedb51b8087ee930a5cf67cd0606a5e409f560894af055a15406c1a7717"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/common/pattern.py",
+        "hash": "fe3822d6b82d71aa12b6d65313aa552f7ecb1bba135e3fcdd529d5ddc1e1362e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/common/util.py",
+        "hash": "1e5cefa694db4d6a10146b452c4927c24591cdbed67a57d0502be7081acc663f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/common/xml_dom_parser.py",
+        "hash": "57d6e8ea5d1702bd9a0c266a86ae2b36d02c70a2e1943717696136484964d393"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunktalib/common/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/binding.py",
+        "hash": "d9b0b136849abee26afc6b9154bd28e565ea20b45b2f2e6c71e17390e1effcd9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/client.py",
+        "hash": "7635586b99b70b93b51e50c25da597601be75f54c28c57d3b9661221eab39d29"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/data.py",
+        "hash": "a4f3f1e9937b0749a3db7dc40dd205eb92534d949580889a8c461fae13c45f1a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/ordereddict.py",
+        "hash": "b222ad43a7c540661416297cbe429ac06aac3a11e0cf859161b85bcf1c4cd15d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/results.py",
+        "hash": "eb469073ec2a5aa07aef433a5d672d75a05394faa7d1095bca6862a30fa8976f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/six.py",
+        "hash": "919fb50a0bd07fe1c319d98aab1cd69fd5140a43e42b50a07a5e5c91c8fec687"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/utils.py",
+        "hash": "1efa274d354382b5bfa72eac8e5debef88de29801c118759a178933a44a34367"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/__init__.py",
+        "hash": "e2d0bc628dbac91709d84a7a8be693b8bd552f4e443322f1f768310d23d7f1c5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/decorators.py",
+        "hash": "7a6d341fad3bb2377bcb0b56a228182a53a99890f30a9ac92f7cd1d262d422f2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/environment.py",
+        "hash": "4471acd1e77d82ff46084477d5ac4b1e5d393c8a36dec0cd3636711c1a32570c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/eventing_command.py",
+        "hash": "0a62034e2c91ff377db6e8dae1c4202b993dcec68bc6ccb062b92387b2eab2a3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/external_search_command.py",
+        "hash": "bf1fa8c91859c75ed95f286c67e297611085ae73203fedf7532bb9bf8d6c3429"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/generating_command.py",
+        "hash": "7b62c6189a7b17c539b5eb204fae05e9505bff0cead5495a04b28b0e4b15cf8a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/internals.py",
+        "hash": "67ddb570e6a47c4bff791f384e466a9234c8e36d5598ec0439bae5a800f28ab6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/reporting_command.py",
+        "hash": "c422add652c6c572fcde661af38b7edbed40c5a38fcfd8f8e2d9dcc6083ee49e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/search_command.py",
+        "hash": "c24a98059a727b6872fb0f7823514c043bd6c825b4d9541e236c868ac22b082f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/streaming_command.py",
+        "hash": "fb76a4e5f2228db116061450c3c59ebf7209cfad84739234a8d48d93336625c4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/validators.py",
+        "hash": "b9ebd4bf645c5f793a9cb06500473235f10615674e522fd33b61f6ea6e5cec5f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/searchcommands/__init__.py",
+        "hash": "b2020bedbf38cb0803bb23bfc58a036361ec4859e2531b11ecb5934ecf65a574"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/argument.py",
+        "hash": "67b3ab437229fef46cdc8306d2e84b9209e81ae043c9b530025a61a78b2471bf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/event.py",
+        "hash": "288aca93af41bf16c3f334504fcf946bf6d537c1973601b67fb1c2016ed0629e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/event_writer.py",
+        "hash": "519c51c8b8a974bf4ad6070741f1b94ac1452bc81f18bf386420f47f37922b1a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/input_definition.py",
+        "hash": "b0cdd3593acde8568e44070fcc52979fdbea589c569463e07b167611948b0151"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/scheme.py",
+        "hash": "977aed1e4e2ded3f2a446f4f7f68eb1177aeb9136f7cbb95bbc34f709f3db0d3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/script.py",
+        "hash": "850a7e21b9849043c59d2ec92458cb022b6f7668f45486f0958e39b0c5014759"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/utils.py",
+        "hash": "4b937db64d139662d4fd812848a8fad6255515f50f77d274663ff9cf58fb1bf6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/validation_definition.py",
+        "hash": "3bb0b6da5d25c8408dc2b950a58b0d299254727a109f61d471fda91f38b17164"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/splunklib/modularinput/__init__.py",
+        "hash": "6c7c88d29dc6b41a008db14211bb9489b1052b09c70f267364ec12e05bedd33b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers-2.4.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers-2.4.0.dist-info/LICENSE",
+        "hash": "1db7cae7fce6452e2e608e401a0f953e0133e4c2d75db69fb8ae851d2086f5b6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers-2.4.0.dist-info/METADATA",
+        "hash": "eedf115109e215001e904da0882851beae50b03c0b0161a8b9e74b7cfd679473"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers-2.4.0.dist-info/RECORD",
+        "hash": "06b90d6d0c9eaad9c80967dc80cb21ef454276ba6fe4e5a5482f0ca9c89fd5df"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers-2.4.0.dist-info/top_level.txt",
+        "hash": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers-2.4.0.dist-info/WHEEL",
+        "hash": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers/sorteddict.py",
+        "hash": "cdae4b9c43593063c89ff25912bd12d2d0d77c4b3126c7c49da9e1ea52e54d93"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers/sortedlist.py",
+        "hash": "af003574cf1c7b4f5e6f60cc8cb39f1e88a4842c7f45f9399ee13f352b1faf72"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers/sortedset.py",
+        "hash": "e51236094246326d62837f9d85b3abcc397c68fa8378f92824f428ab444e4bb3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/sortedcontainers/__init__.py",
+        "hash": "5ff5f92ee463bdeefb2b0b8942b0d44aed13f39e7d61ca28c106c09e3b8ced31"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib-4.12.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib-4.12.0.dist-info/LICENSE",
+        "hash": "5efbddf3de03125f255073c478553e61ad7c456ec77362253d3652fdb1371e0b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib-4.12.0.dist-info/METADATA",
+        "hash": "704a7ba831ba135afe3c7e835feedd5e6db74de6ea407112867ef32554277a50"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib-4.12.0.dist-info/RECORD",
+        "hash": "34edfd56de4ef04440b1b2b59099d186eaa7754b4271896435eeb4efaaa451a7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib-4.12.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib-4.12.0.dist-info/WHEEL",
+        "hash": "65bdbc41a3358108bc7f8542061b1492517ad424e53587ecf580199fe4ce1859"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/acl.py",
+        "hash": "cbafaa43014528fdee9aada4924dec01a6a12e41af1f2fcb0e579d5da1c2033e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/conf_manager.py",
+        "hash": "7dd1b8fe4b1dfadda8fb6d87a6614d8fe389b50b667f5b723bd1e21e388180ae"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/credentials.py",
+        "hash": "0264378afbe7cc8b9788dd86cc20262da4ba56f2b9b3633ad6711e36053018ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/file_monitor.py",
+        "hash": "5477bfae5c72e3f0a6e95544a4460bf8ccb035ea73fdc89f09c57f4197798420"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/hec_config.py",
+        "hash": "773036f3fb46f7c0d8424874cd585a82a3b4883daa1a4d450d7ff4c206f5a4d0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/log.py",
+        "hash": "b5b88f7885b9869c6cbba9f8f83484792a59acd2d2d6150543c1e6b023224458"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/net_utils.py",
+        "hash": "68a8a23950c9fa92fb31c48eecdbfea19afabb0a5da052cdd1f51ebb58e821d1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/orphan_process_monitor.py",
+        "hash": "3462deca705594053de31500ce399ab67c7bc88cfdfb8327a2d4e97147308e80"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/pattern.py",
+        "hash": "2ecd94ee96f14d6cdced34a1b5106a54e50716fc365f897b32f4b84ea9341d04"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/server_info.py",
+        "hash": "f2999445ce0478e00e31e0790154852ba5e5f38f492ebbec64d857fbe3ed6329"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/splunkenv.py",
+        "hash": "00fca57bed83f7141442b92c8234154cfa1293f693fd146c9e210a567b6e0fcf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/splunk_rest_client.py",
+        "hash": "6fb6ddbc973375d5b5d0f4305493ba3d2c5524755233e92799e82d0605ddc07f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/timer_queue.py",
+        "hash": "d88aaf1831434993308220373928fef1c7579bb83a73b740c805b177ba06adce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/time_parser.py",
+        "hash": "e665a366c87d1f4644395359ee679dc8f503ea1b9eb5e242c1bdafd3d503474e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/user_access.py",
+        "hash": "79c259af1066f13299900bac562d808ee17e542803be59488004f31ec1de9ba8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/utils.py",
+        "hash": "54e2b1c3920a6fa2cfe2f1de2b42ecf27508143550a6bf73d107de7b133d1d47"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/_utils.py",
+        "hash": "269ed454072cf8559ea80390d95cd6918d7941a5561c1fbc14f90be41ed8813b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/__init__.py",
+        "hash": "52f654af7980f7e1b544813dc94082e9d454f67b651fffcd8c55db22db6a091b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/modular_input/checkpointer.py",
+        "hash": "0f552e139132134a695d1956f933611fe132b7cd7d48006d6372d8887956602c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/modular_input/event.py",
+        "hash": "a34c42124dd691ca3db8cc26e2f3eb0a13aaedcab7264ef5657412e832c44efc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/modular_input/event_writer.py",
+        "hash": "eea3d33094ae0110ce094f262e323f1d08ac22f20be37165c7ac577d6c90f885"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/modular_input/modular_input.py",
+        "hash": "cd8293631f7a50b2a1a61e2f444861c3bcd86be5cc9830c7513a317995038cce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/solnlib/modular_input/__init__.py",
+        "hash": "07b958d3a729fe643626d397991c73059c8bb2595a493200744fb3765be04126"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six-1.16.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six-1.16.0.dist-info/LICENSE",
+        "hash": "8bb850c565aa389fdc16f3a46965ad23d82adff60f2393fc2762b63185e8e6c9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six-1.16.0.dist-info/METADATA",
+        "hash": "5507062050801267d9725efb139ae23c2378bf64c8b1cfeab5a7278f12872682"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six-1.16.0.dist-info/RECORD",
+        "hash": "332e3a29d8fb968c86d4bf7b097b68d6268831a3124d7d6a1b22dd46e54dc9c4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six-1.16.0.dist-info/top_level.txt",
+        "hash": "fe2547fe2604b445e70fc9d819062960552f9145bdb043b51986e478a4806a2b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/six-1.16.0.dist-info/WHEEL",
+        "hash": "67e9f2629c2b712ab17ddbb1e4c6e7fc3439db988fec9d831b72601af398c934"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/LICENSE",
+        "hash": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/METADATA",
+        "hash": "7823e890e9db6f415138badf9744791290ef76e7ec6fd09a3789e8247fffe782"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/RECORD",
+        "hash": "a4970177f2149231dd49b36fb1c8d8ae67850e1fac18fb526e86495c54613db1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/top_level.txt",
+        "hash": "7cc4959877dbe6b6c63a8eb1bfe3bfb545fa8fe5b28b1b2c13e4a7c1c0d1c4d4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests-2.31.0.dist-info/WHEEL",
+        "hash": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/adapters.py",
+        "hash": "bff1668d4e4a67bea4f98b6d4a1658079469ac8ce184bf18df3816f69e1e050f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/api.py",
+        "hash": "abad71717ab8b668889abbdc4952d36c5c82883d85f8bffe8562866f3e32f2f8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/auth.py",
+        "hash": "87e1cb955c7d8fcaca57985f480c9c3f60293928254f3efb474b73eea09b6c41"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/certs.py",
+        "hash": "67d49be35d009efea35054f2b2cd23145854eb1b2df1cb442ea7f2f04bf6de0c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/compat.py",
+        "hash": "cb19ed54e4841c632b9fb14daffdf61046a6d5934074f45d484d77ff2687cd39"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/cookies.py",
+        "hash": "903de43447028fe9b16ed7f97c9b12693f3a786a046290f75f4092829ce5ec13"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/exceptions.py",
+        "hash": "0e1bde1417255634d1c6145db95a4ef866cc60c203da09a374b7cd12a36923f5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/help.py",
+        "hash": "80f5f977f1fb5ddf3c6830017a386a1a097d075545453b79066898bcbdcfcc84"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/hooks.py",
+        "hash": "0a2bb2b221c0dfd57951f702057148c7cdc8ac3a6ec1f37d45c4d482fdbc7ed4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/models.py",
+        "hash": "f8394a8b4a2bf2014033a573bada1b5efbc15bfdb0ac9b8e17935f9dd4c875d0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/packages.py",
+        "hash": "0d782ff852487336484e6bf4bc40408568f85bee4218220dfe4b2f811d7b0efb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/sessions.py",
+        "hash": "f8bbd3ceb3ed7ad493ad1ddbbb1bb85e176032b2452c1d6ae43ecffbe2f65e1c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/status_codes.py",
+        "hash": "16f1e64f9b87fbfba29ad473e611fd5426eded557e35e8b627dba96de8fa8fc8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/structures.py",
+        "hash": "f886e6855cf4e92fb968f499b94b6167afba0fd5ce8d1b935c739a6d8d38d573"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/utils.py",
+        "hash": "eacc765f7708540f018163a0f28771172fbf95b5831444d4f072387d4e119aac"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/_internal_utils.py",
+        "hash": "9cc4329abe21b37d93a95a3901b0ab99c24486f3d487bc57965bb2ab0b252e24"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/__init__.py",
+        "hash": "2ef98a863233f261da297b610b632fe72919d5df76be8c9fde826977e56e0228"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/requests/__version__.py",
+        "hash": "b2c237133b7b3dac6090e5b8e4686dc0f51c968fd23bfca0b489b803be0839fc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyzabbix/api.py",
+        "hash": "a057bdfbdcdae893dcb1f117119d8b6463e55270816de8cfe193b8dc1922c8dc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyzabbix/logger.py",
+        "hash": "7bbfe7c6367172f15a9ac8ba68f85ef3aea2085ecf7a90a9d3548a1b77052467"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyzabbix/sender.py",
+        "hash": "9884e206c22708e13cd7d28fc3eb6ef1cb7269c3a91503734f73132fca8f57db"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyzabbix/version.py",
+        "hash": "f9fb8eaae247c90cc906f16d22efb7cb22039d4acece96b90e71d16c2a109c4e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyzabbix/__init__.py",
+        "hash": "91fb6860b944310ba4228dcdfdb8bd48d3923373ae19416cb96291e41ac1bffc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/LICENSE",
+        "hash": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/METADATA",
+        "hash": "50d345f3e4b3cf038a5d5a3e915e655d4187dbfc0358c0661b1a884a9a791d09"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/RECORD",
+        "hash": "cb297a2113764e9e046ea5ee8a50bee3cbed00973c2e71ffc716d09634ca98f7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/top_level.txt",
+        "hash": "ae98f42153138ac02387fd6f1b709c7fdbf98e9090c00cfa703d48554e597614"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PyYAML-6.0.1.dist-info/WHEEL",
+        "hash": "1340a4128e96ecd0bddec568f238f96360b488e24127bf48cae9f9b2b636548d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PySocks-1.7.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PySocks-1.7.1.dist-info/LICENSE",
+        "hash": "7027e214e014eb78b7adcc1ceda5aca713a79fc4f6a0c52c9da5b3e707e6ffe9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PySocks-1.7.1.dist-info/METADATA",
+        "hash": "cdb40c8b38cf38e3f80e1122117db85d78cdad8b88c45f54194a4dd2e14307a6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PySocks-1.7.1.dist-info/RECORD",
+        "hash": "ff951b4589e4f8c29ce528f59a202ca46632e33cc90a45facb862d7d2005cc0d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PySocks-1.7.1.dist-info/top_level.txt",
+        "hash": "4ca48e21f0850682bd118f050586d8a82dcf59ddfef86d79a61f67f3e4073c39"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/PySocks-1.7.1.dist-info/WHEEL",
+        "hash": "b7f329029bf7f3afbc3d5b6cd91eb0b1389f7489f4bdb5034d5bfad486ea142f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent-0.19.3.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent-0.19.3.dist-info/LICENSE.mit",
+        "hash": "3ea56753cbd0cc897d3f4414a902f5694991db7c1b3abb8230216381185f9112"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent-0.19.3.dist-info/METADATA",
+        "hash": "d04e0f642f90f80e223fbc0103e3a0b30ad4060b50453a64452b3a9ba4561f71"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent-0.19.3.dist-info/RECORD",
+        "hash": "fb2d99854abac1821be7cd2888eb90fb55ef400e20657a110fba6863832e2846"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent-0.19.3.dist-info/top_level.txt",
+        "hash": "c5462992e660b658babaa2f8b14eb043dc2333a56c575913e4501dc4d7db48d4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent-0.19.3.dist-info/WHEEL",
+        "hash": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/typing.py",
+        "hash": "bb3c71ab5d4b1db84072c34f9f10ea39190f8f2e872261ae949276cc505d44bd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/typing.pyi",
+        "hash": "6b237fc1b003fde81d9d5c99fd07615fea894febf1f8074790aae90ba66478b0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_checked_types.py",
+        "hash": "6c48d7dbc51859db7eeef12136381b6cc22159963740be1cc21092c422910ac4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_field_common.py",
+        "hash": "801ccba50d1da8623850aed8f840fa876d25e839f4424044caba86c1b5ff856b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_helpers.py",
+        "hash": "bc7585061e0569e5d464ce0f7eac35663cf891a3d3fed7773e61be13163792fd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_immutable.py",
+        "hash": "3e48ef82171b0755cd5e06a6e47f96f6e11a1297d9af511cdaffeaccad440faa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_pbag.py",
+        "hash": "1b92e0079fde4ffa4e3a4a8b999a861889625688678c19595f3a3fec2f6aa6a4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_pclass.py",
+        "hash": "da6ab3e7b3a377b06947b9c92eb6cccf7e60e35e295bf75d9c811fdf13d344ae"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_pdeque.py",
+        "hash": "365b61cbc7c748816ca14b5e19573229aa3df0ea99919928ef1f40c552e1c6f3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_plist.py",
+        "hash": "765b5e48870507893de55147a04c1b074601b0ac2612763624d79aa57f3b870b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_pmap.py",
+        "hash": "78b6a1837afde3a7614185607b07ea36939621a3e173ab2a019df3bc3805206e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_precord.py",
+        "hash": "73c3537237520dd957482a78d27a0cb0b2be671f2c3c05a5f1d59f6ccbb2cdd0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_pset.py",
+        "hash": "ec42ad0b59211933a7ef4d8f5f9c9abae6aa0f5099bcb9192510c68aa32f43ee"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_pvector.py",
+        "hash": "b58cf8730a241fd318bb4900c1a7eb971f94d0827222fc4af2b15b45d7bf2008"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_toolz.py",
+        "hash": "d772d3b2b666fe07ead47de866ac697b3f8fe4f422d6cdf685435798eecd3649"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/_transformations.py",
+        "hash": "085f4a5dfdfae99da197cedad3d33a3408970e9649e220847e175d25b5143575"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/__init__.py",
+        "hash": "d5c38d2c20f36f20e867f75e7a4f048bf8aa38b238a0db1e44f2c5df3be61280"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/pyrsistent/__init__.pyi",
+        "hash": "c6b9727aac244501f1b125d9128211fcf9624014ab322132f13a6ec91a5ede66"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/DESCRIPTION.rst",
+        "hash": "9e7058d4d8ff1a122c385724ed1db2187a1b415a2cc62d823d090781e499d078"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/METADATA",
+        "hash": "a5867da754ec58643c2b1a7dc84255cafb36e4f911e61de0203b93382b2f2468"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/metadata.json",
+        "hash": "b3b33bbdaf44db9ffb4d1a731df3427cdef721e8b2e622a8805d0fcd7b4cc4c2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/RECORD",
+        "hash": "f11cdc898145fb3e219f8fe9e6d50b432938afcdb66f7915d1a8083bc45684f0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/top_level.txt",
+        "hash": "8036011d143b572d2d6340235f226d69dbd4d8b0da3ac1ea86157bd001ac8ac7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply-3.11.dist-info/WHEEL",
+        "hash": "91db0dfb93890192221cdfa23b846197cd8ac92d1b0d67f8b81c0c6e435a7ebf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply/cpp.py",
+        "hash": "293835dd1e5229e89cc199bb6c83cbe3829c40145c1ec99e1063b020156f2e4a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply/ctokens.py",
+        "hash": "1a6c9660363d9e5e85d56250f6b99c405821d459c00c5967a7f4c18d3704b2a5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply/lex.py",
+        "hash": "6da6d12129c801fcc7a3b5aa2d8176a86092687d1bb4cf1ddf3b601da2b7480d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply/yacc.py",
+        "hash": "105d38deb207ad72581ba8dc6f5e5323648bc1d0a834e4195c237fd4cdfe2389"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply/ygen.py",
+        "hash": "4d19e4660c79041078dd0b29bb6278815b69781badf31ad3119a0b6cd3746fa3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/ply/__init__.py",
+        "hash": "b31ea204817ffd6288794d22c36592a12a8185c947179121053734c038a04d5f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/LICENSE.txt",
+        "hash": "57ca95c92059c8380625192462979bd32994aae3fcdf902ff6eb1e467eeb0469"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/METADATA",
+        "hash": "f1fefa8e505657e85ee051108abffe4ef7e62b17cf36a9b96f022f6c4ea08a6b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/RECORD",
+        "hash": "56a36ed29ff70e0f70b9fd39ab9c8c7ad04346f0c17363c94be4f7fc9c00a092"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/top_level.txt",
+        "hash": "3d11cdf0c61a579e22b2c5ec73edd275ef8d74a04b2fb057b1a7ddec76b0f081"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch-2.3.2.dist-info/WHEEL",
+        "hash": "f86fedd281ae13b503d03ad2a55667ab584730157d0c3d97912e6fed7a664e79"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch/python3_compat.py",
+        "hash": "7e0b92b21e6564ec5f588eabe21be299ad0df1d627d7aedf5eaa5192abb9384c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/munch/__init__.py",
+        "hash": "510bc1c30b4f6ea0333732000c89f37357d6a57dfc9c5ced5036e82d08a0bb4a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/modinput_wrapper/base_modinput.py",
+        "hash": "ea86da5bb7447070e622c3168b06de7c23e19f1d70fad4dd6e66c9c0b7a0cd7d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/modinput_wrapper/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/LICENSE.rst",
+        "hash": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/METADATA",
+        "hash": "9649de96df953c759a8b910972f66901318a55b5e483be21ec242e3f00d2ef55"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/RECORD",
+        "hash": "023ed35eb3d7da5e5280e469bb1caa71b8f57b9332a77300d6a8e3cc71bc2b9c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/top_level.txt",
+        "hash": "ab2d0f9637b9209bafb020637a32728430a310075c0cb2bfd9a81571ec7c67a5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/MarkupSafe-2.0.1.dist-info/WHEEL",
+        "hash": "4fb0a9e71bbcef207455f29a852477374253fc5572717e29abaf9f370b56dfd8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/markupsafe/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/markupsafe/_native.py",
+        "hash": "19328457e6d6819b928e496130739844753d9340cc7b04dfe6654465f91bba7b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/markupsafe/_speedups.c",
+        "hash": "0830edc1a576d43da762dca99cc433c6fbe9669713bc8b3c399e8a0dad60e2dd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/markupsafe/_speedups.cpython-37m-x86_64-linux-gnu.so",
+        "hash": "fa95c70a2c76cc9350240c626287d3870c5ddf51c170db45e5af9bb2b52072e7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/markupsafe/_speedups.pyi",
+        "hash": "bdf302b0e81b01744d2d45e4caeca89c6f2e1162985383c3a8db8c68310b018c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/markupsafe/__init__.py",
+        "hash": "f537b3e1422523b27afec41c5052b574a9e24ff6fff1879fa46232609dd2af64"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/entry_points.txt",
+        "hash": "2ec2a452c3ac25061b27633bda16429bdebcc22e4af18c1be6e1710ae37c39b9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/LICENSE",
+        "hash": "760f22b3e9ea4a50eb99201bd8dd118869f28108cfb64ccce6d1b305cf9ae9fa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/METADATA",
+        "hash": "3253e465c4396c048432dce445a1fc69149013a8262c7dca4e701251ac33e9e0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/RECORD",
+        "hash": "c4132ad9aa30e6e26aaaace95f4f362aba230d3fa9bef86733bc7e9674e0db44"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/top_level.txt",
+        "hash": "2c8b5d1fc7033deb6952ef2b532046dc339b4ba87d19ca6bf63fd62e3d92f91d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Mako-1.2.4.dist-info/WHEEL",
+        "hash": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ast.py",
+        "hash": "874ef1069cf6975f514b0a5e8eb864860078af979fa701a6b183b2fcbf31bd47"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/cache.py",
+        "hash": "8e4b29ba7f6d2e0bb42152929a8fdf90bfc301b4939763f96b9ce430192366f9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/cmd.py",
+        "hash": "bd083d8a9f3d28cb2e64419a9824403e0ed4c83365a4c9a71b75c70cd2c74b9a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/codegen.py",
+        "hash": "875cfc0c62e407dda76d4cf63991959942aa3ebf6454d6e734bf0a9cb8b36009"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/compat.py",
+        "hash": "49add1ceb8e5e38c68db99d75076e17c8ac4a0c81c7aae7e3a197414ee9c0879"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/exceptions.py",
+        "hash": "c5064a61d6fee1df2b72b345b05ce319212e346e2ea45a8634f12bb52083a9f2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/filters.py",
+        "hash": "ae51c9d8be5116be467fe33238929923b4d2269339a015c7e7c9e22560a9dbee"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/lexer.py",
+        "hash": "18e1cd2de4a54c811aff257c5b942bdbb4a368f94970ed0a8a3ed9daba549020"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/lookup.py",
+        "hash": "ff654f480d82802893d1577d1a74888f2639c25a57881d82e65b9724fee0ca6f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/parsetree.py",
+        "hash": "a576d93f4a2bb13de20488166bdc83d5311fbf2b6c09a5eed93b70b3c4533063"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/pygen.py",
+        "hash": "2be97f86cbd77d674c4ee9df1f2571bc0e441b8533af841ac3a214737870f332"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/pyparser.py",
+        "hash": "762497828f99c1d6716d1b0d6750e601140a56794e15ce90831f43737c1907f5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/runtime.py",
+        "hash": "3303b94f5ac6cb4c8b789885876861e5c3bf91f779ffd7c9abfbdf0732c57bfd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/template.py",
+        "hash": "80484c3e3299d50fec6165a0e8f2e7457f8a05e4c5d24067c916629a59a0424b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/util.py",
+        "hash": "5e66109aae967cc02df813ccef3853f65c9b12a1d521608cf70175ba4ceaa5ec"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/_ast_util.py",
+        "hash": "05cc092ee13813e6a21578bf7da9cedfbf029f73aed376c9c5ce889dc8ec7b86"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/__init__.py",
+        "hash": "475710a151a1600f9f978de43523ca9ba9337493acdbc7bcb2af1660c1dcb4c4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/assertions.py",
+        "hash": "5e76033d29c3162117f5e3bde4e6792e7759ad4a49ebfc46a1f7baa83cc9c6a5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/config.py",
+        "hash": "c2661565fcc6bce2b7989519a739a03bcfa2220bda087e355a88b8c83a71aba1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/exclusions.py",
+        "hash": "fede800ca75ab64ddfd7cb4e7c757f658eaefd9c10b0aa6167631725548039c2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/fixtures.py",
+        "hash": "9c4a7bc13bac7fb1349f743e047256dacfedd6fc74281f69a1a750d419882731"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/helpers.py",
+        "hash": "91368883c38bd6ebdcb8ba6d6d103f689b469dd2030dac40cda7186effca9b54"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/_config.py",
+        "hash": "93eaa99ec9db5d4a0dfb290c379051a60f388b5c74a7a52c01d74a427ac8cad5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/testing/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/autohandler.py",
+        "hash": "fa136fe151db42994b183b797b8985b010be4297d63232a890e7b46b10cfdf4f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/babelplugin.py",
+        "hash": "b3a648021d61521b092221778f8b28547ac537fd5c449fdedec11bcfb7a29fb9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/beaker_cache.py",
+        "hash": "0fa821fe47bb40e2a2489b6af6febb46f9aa091303271f88c1371df8d0e32af9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/extract.py",
+        "hash": "1215e0963d9e5b9bbcd13df159607b8cc80bf283437c041a0f913921188bf4dd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/linguaplugin.py",
+        "hash": "88b8a9da0674c9ae69a281ebc7066b3fc54541f2627579a03d9e61d63df42a8c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/preprocessors.py",
+        "hash": "a4451b99f48edb36f80ee0adffefe86275b2a56897b38327247c634cc8a4b390"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/pygmentplugin.py",
+        "hash": "1ae39df774e37adce94df5b9a1412db8f4bb8ca0c7809207dc56a26aaefa4b47"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/turbogears.py",
+        "hash": "9b1143179f4d14ae9c9bfff7ab01a36755405b4a9d8c958d8f6de5e9d730a848"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/mako/ext/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/btm_matcher.py",
+        "hash": "a1aa5d35558acf4b6016054963285cb145f97a764926bea07cbd674563f3248d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/btm_utils.py",
+        "hash": "79d210510630052adafcc7c4ad8cf16acd2fd8e9adb46deea952cd81bfbea661"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixer_base.py",
+        "hash": "c795a53ca849c42212c8ec33a74284e0377df852eb4ea599aba62d5af1df282a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixer_util.py",
+        "hash": "229f893e48aad6afe5d928f00053681b142cc1a1be9be1cc0f1b28e1e00a9361"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/Grammar.txt",
+        "hash": "1c6b408ed690ac689a2792ca536a6990dfca3ddb3cdca295d90b24850550d380"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/Grammar3.7.4.final.0.pickle",
+        "hash": "ddb14b28bee69da5714b25dbb14550c374d64512fb038ee97ab3fa3ff330637f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/main.py",
+        "hash": "bec917f26fe605744cd34e51bf5de3be5baf63ceda573c0cdc4c5fb383390fce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/patcomp.py",
+        "hash": "a033a3eb91a39f96747d4300aa3394965e529c71896cd6503dd27e6b685eede5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/PatternGrammar.txt",
+        "hash": "ee5ba5db3b6722a0e2fbe2560ebc1c883e72328ef9c3b4da1c7c5d1cc649bce3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/PatternGrammar3.7.4.final.0.pickle",
+        "hash": "edb7f84f6a386161434bf3cdb64db03b29b80717cedd1c492789578454bc3d05"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pygram.py",
+        "hash": "a40f91564f009c169fdb5d3ef0f2011a819b4997c98b2dc496ae03fa6a9e0d3b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pytree.py",
+        "hash": "5c2846af29df45b9e1232de875b59441677d21758d44015b2337ce9c51a3e2bd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/refactor.py",
+        "hash": "b92c1c96037fc5654127b92daf75546b3b210b8f875e85d5b9bad3062656ff9e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/__init__.py",
+        "hash": "c8204cfd372ee45f79cb744ed0565bc8d486716115a546f48477c0719b8a6bb9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/__main__.py",
+        "hash": "c7b09f90e66dea194ad63dc02c6425dff977d16f1f21a157b7475905c219a707"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/pytree_idempotency.py",
+        "hash": "56e652f53a8cf79d0c18660763830183b373b2a4049ac6fb835c4b328817d156"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/support.py",
+        "hash": "d00dd6cf406be2cd020e16ffefc4e01c8bc45324e02341a71c52993f07ef5c34"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_all_fixers.py",
+        "hash": "3ed8f538a78bbe635a06b85bff5b8d60fa81e42eb9feb4c2359e8bda79037716"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_fixers.py",
+        "hash": "75f1ea8834d93474890b9ab7213eeed9ce3426f18bb5c5850febb0a1c5f58fa1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_main.py",
+        "hash": "3f61027bbcdf521589b58fca01c3a5d2cf9ee40f69e48567b2175647fb5e2cbb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_parser.py",
+        "hash": "79eec39c78c1d0c8e2ac15e06d9202d35ecbc56822094cc15a180ef9a097266b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_pytree.py",
+        "hash": "6fbcd26438397c6c3de40f4546c7112c81f784356e614ae529d8c90570d40f71"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_refactor.py",
+        "hash": "5d885973db4af567e8e041d92fe8c3f596bf02639809b108e47386dc8ab5e0f4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/test_util.py",
+        "hash": "02c744eb87a94e5ebd94e5966e103dcf29da97b458543600f3aa79c8158d47a9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/__init__.py",
+        "hash": "6af7ab5586854297ec737d4aa485b96f13641a556106223eba0d761a5fb962ea"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/__main__.py",
+        "hash": "cb9a3ce8f18e7d0a0cadb73cc9264772462de953499534736998d3c54f8c7c3c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/bom.py",
+        "hash": "16c62c93da9ed9338601adb171f1aac3d28c1c9cae35ee1b6de7948de837e436"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/crlf.py",
+        "hash": "d910ad886333abf3664a4fb4290d3b81307a16c6d9ca14356b3644a9aae6e714"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/different_encoding.py",
+        "hash": "e5d82fa54d5060994445e1d3825f49999aa98a093803393d88a5e8030c62337f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/false_encoding.py",
+        "hash": "f3c15c2784af8783069df41ca628371df3dbe59758942461bfa4bc5902d9d9b3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/infinite_recursion.py",
+        "hash": "bee23029c39e8d677ba3d4f672d1e5fab0706c61412af4daf4ad16394b5fbcb1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/py2_test_grammar.py",
+        "hash": "bac0d4c2067cf12930993eabdd0dcadb2d41748e4a4d78f8b8280439c936fcbe"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/py3_test_grammar.py",
+        "hash": "4035eb4b45c72abbcd33793784110a689eaace2150f6017e5fdc5559344948b7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/README",
+        "hash": "83999cc221401dc2fccca9d3dbe395c82a9f009db310a00e811c68c606547719"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/bad_order.py",
+        "hash": "b78e533e055c607b009b1ad93dbbf16a3595f6522b95536eff974b202a34e8fd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/no_fixer_cls.py",
+        "hash": "c0a16cfbe6b674abb6534c984f06af296a01668b208f0967f25f8a4348e625a3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/parrot_example.py",
+        "hash": "6d9acb2151507735aa72c6aeaf15142a75cb0d3b37b48215ac45ee17106adc18"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/myfixes/fix_explicit.py",
+        "hash": "e46f1bf431aa68e36406b32cd94afaafd109452df427aa726855be4176077b56"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/myfixes/fix_first.py",
+        "hash": "a2e3c4212f38d27aff680c0a7f6c377829438a7c7a4f85ad4789b22de7ca73a9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/myfixes/fix_last.py",
+        "hash": "042acb60984c6f721fa89c42cebe22572acc9434cc7f27d2fb4362b3602deb1d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/myfixes/fix_parrot.py",
+        "hash": "627f9028bbdde32e61ceceeb929520023607de25aebdc039c2d568d9c1a8d1db"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/myfixes/fix_preorder.py",
+        "hash": "c7c15747f0d13d0884b48d424c3b38d5e05cfece09c539c906d5dec48be3d083"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/tests/data/fixers/myfixes/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/conv.py",
+        "hash": "e2946a686c12e02248fafb1a57e7514e0c22bdb2b4a66e644215c86fedc37bff"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/driver.py",
+        "hash": "1c1bdf7e26ae76fa9ed66be745000e6fccae6b706deced1231bf26a7d6e16359"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/grammar.py",
+        "hash": "52afe8b5826dfe80d659718edcc54f7dcd0423b9902720a2eee1353ec4c036db"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/literals.py",
+        "hash": "84bc9d5387a2e20fab844e530358571afa39fa3fc0e8024270b5f7d8ac5a595a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/parse.py",
+        "hash": "ef205d15dd8a2184df48dfcba354037cc7c0f38d939bd5cdc5e56fc05f81cb18"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/pgen.py",
+        "hash": "2491291537fedb8765dca1c5e2ba34c0a0e3980e4ca3e3bb2b0d3ee293f37861"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/token.py",
+        "hash": "b9f9f10c892d454d4ac3e3d5d36150d854649881b58479f1fb544406e8fbaf16"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/tokenize.py",
+        "hash": "974313b0150e5c954e8ed5239ea05cd3c74037ac1b1df88e95650ba53f87d72b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/pgen2/__init__.py",
+        "hash": "858eb0f50533bd3bd16fe32815f77fabfed92ede885070b6cb15827ec66ea500"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_apply.py",
+        "hash": "2bde1a37871cac0ba05b531ff989c2e9433f9f93bcf295551b4acf11ae725e52"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_asserts.py",
+        "hash": "4c77972812cb5ec0a72afbce3e1d618c27ef7b239329c5c952c2bcbe77dba5dd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_basestring.py",
+        "hash": "d041443d6499a735bb78fec9da1bf33b3d034b5192c98bc273b16a44692fc88f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_buffer.py",
+        "hash": "2da37b49c30d6a0b4db43146ebb4ac8e5ffcb9814816b4742e464cb856977883"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_dict.py",
+        "hash": "38f460596ebfb64046aab3d9a65935bd4c76a470118fb7d10a088dc0ecdc53ea"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_except.py",
+        "hash": "7ff6f560c3c3d7a5d9ceef5ba31c556341f7ce1bc1b52d96b063f6c2c4765651"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_exec.py",
+        "hash": "9e0893327205dea12004e88d18c580286e7977e081b5eda7baf5b7bc93bc6c52"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_execfile.py",
+        "hash": "6ff65db1192099457cb3d9f2618a893c6ac430028550284f3a34d5c08042b0eb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_exitfunc.py",
+        "hash": "ef4f18f651d32410c43644c27590903d41e38e763b0e108e6c685a3412a7d29c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_filter.py",
+        "hash": "117f34254fcc12cb492eb9475ad15ddb460a2b1971f066c369e4cf86ce4ef19e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_funcattrs.py",
+        "hash": "111df53fac6a121d61abe33883a68e731820ddc4864b0a4c1000cf2ac5f019cd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_future.py",
+        "hash": "baba8cafb48dd9181a0e1f7b0f20b585ce2925e8f347e00b87407a256bb16663"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_getcwdu.py",
+        "hash": "5bc5252f683a401e7d81c5911617c4af1a1bcdf99a51c4bf1cfccb00446ff220"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_has_key.py",
+        "hash": "32943d3b921c1c3f0d3776d19e5120806990b817bc99a7e22799847abfda1f63"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_idioms.py",
+        "hash": "600e34faf36e14307e59d55088e3979881d497b8fc9d77659e77709f9e8bafd7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_import.py",
+        "hash": "803baf96f9603c957eb974f252b0ad9829c889a293e0ce6829db1bce3da6dd4e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_imports.py",
+        "hash": "cdf7ee6d85e2b148230984cfc4ea3f193be458958ea42ef290854a9672a64370"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_imports2.py",
+        "hash": "b6f3c628839ffe7fd72569dd6ca2210e18edae3e180002747ea011b76b7ec0ef"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_input.py",
+        "hash": "10c5ef3b45a4ee7e88af8852181916a788aae2bea52b08f3473815c1c43598d1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_intern.py",
+        "hash": "199a203f698769e51e5333afd87772b7cb5449a935deedb31acb509960d75405"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_isinstance.py",
+        "hash": "8408c92b99f50d8c4978b47a2b2155588e315f2ebbe58c160dcdcdcb89e19914"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_itertools.py",
+        "hash": "578a51b9935020b03a510de15ece55fcd02c9474f37a54c158fb97ba5fd15af1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_itertools_imports.py",
+        "hash": "2e419cfbd7f2a326ae7fa10873aa377112ebec32545238fdf988acb088c3cdb7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_long.py",
+        "hash": "306b80e0a72c0d16dd934b7d51ab0c9a4224f83be5d6cbad8a7158a0a5d73551"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_map.py",
+        "hash": "b82c0762c44adf2af7745c030afe291e2badfe360925046c8e58d85340717696"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_metaclass.py",
+        "hash": "9c876be8ef0bfaa500a9471eb0c13967ede8704f85a2e1804da756128e6c2259"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_methodattrs.py",
+        "hash": "8d60082f98ce52ee4955099bfd447cbadfa0e9b24ccb8d135cecc833168d44e8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_ne.py",
+        "hash": "4f9cb1388ba86f29422d20979d3423fdf3541ba35a17ed44d6f4a517ff784ecd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_next.py",
+        "hash": "5c7d86d9f81b2498486d626c7feced1b92f23171cf9e42881abb78de1a93bccd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_nonzero.py",
+        "hash": "c2cd7e3ba44508643a20eec4ea4c19f2f1adfd36f6b974d7c143e449571ae736"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_numliterals.py",
+        "hash": "1c4dd0f7881999abde6cf4d232836fa3e55fc41a7d5aa2b9866092f65707db7f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_operator.py",
+        "hash": "023872fe9f03a25387cf2c17fc950cf0f990353df66e603c3a1cd3199dbccd86"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_paren.py",
+        "hash": "158b87396dba4d0d5a1bde3ab008206c155934d53508889398e2ca6b4de3d91b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_print.py",
+        "hash": "cf2690f1b502249289f52cd544190db0b94d59df5eca139829cd2bf0742e9dba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_raise.py",
+        "hash": "c38ffec5862597ee8f9dac50385af943ee312bfc394366be08b2fc12563ca1a5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_raw_input.py",
+        "hash": "ce04cbaa76d414949afc230360dd9a29ff579bd868cc7f8805230d126ac9ce9b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_reduce.py",
+        "hash": "9a03910a6c183586e1db01863fcde6417d06745fb3e63032333d71c5e82e7919"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_reload.py",
+        "hash": "5881ef540d7b780202a09255ccce219e6db1465d165f4e5f19760bd0a97fde37"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_renames.py",
+        "hash": "8b71472317bf3adabf819e665c725d03e3064baa45f6ffbfd78cca83eaa46e8d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_repr.py",
+        "hash": "d16930b7ef8577747cfef602aba854c64ce85d4ae1e54a18a456eaa202643e3d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_set_literal.py",
+        "hash": "33f2c0b6e16357e083c3a98877e7317abe1578a44c288e5979c9d96fb5aa6727"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_standarderror.py",
+        "hash": "ce7eb37bc7fb29aa138b1cec6656ae8b4886cbfa700e119a1bb8484284cb717a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_sys_exc.py",
+        "hash": "0143830586d09d702ca3eeaa8f86698e5fd18af69fd28147e71a1a77600d356a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_throw.py",
+        "hash": "fec731ed523d5cdfa21893833b52b2844eabfd1549792c1c9f8ceac2d0e8e901"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_tuple_params.py",
+        "hash": "f3307d4750d0657d9c42b857d5f37bdb5824f9358939da7d16d13f61eb8abc72"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_types.py",
+        "hash": "a0a133cfc78e82e1f71ce628408e7d10a38552ba3e3228ebd113838c1ce44484"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_unicode.py",
+        "hash": "01b2a9b1084b6a0424f27eec488c761f75f053a409608ec36a9ee0ede0d38097"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_urllib.py",
+        "hash": "14fd0b3433db387db33987f1e3071d47c13dc83d1e902aed6b9d7d0ea3189061"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_ws_comma.py",
+        "hash": "5e7a16daec0b2619110516804bf90cac459a4d0315198fd4eff69c36c54378dd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_xrange.py",
+        "hash": "60d8ce92db6f399606d2e40a3c631ba566127e8cd637ebbf35b822672139cab2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_xreadlines.py",
+        "hash": "e8c2f19f7047bfc7539fd78839929004d8fe0efba1fbcbd9d712d285e43834ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/fix_zip.py",
+        "hash": "55ce115556c7513dd967364dc6a40c39210c874e8168cf090ddd6dc606df34cb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/lib2to3/fixes/__init__.py",
+        "hash": "836cdb388117cf81e78d9fa2a141cca1b14b0179733322e710067749a1b16fe9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/DESCRIPTION.rst",
+        "hash": "3824eeb8de8b716ba58474b7779adf8ddb10b56db69fb1c4345461ea30ba7a0a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/entry_points.txt",
+        "hash": "53cd72056ebd4c5647b35adbcdcbf373ed5d0dce76c41e1995ce4b10e28db88f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/METADATA",
+        "hash": "6a0760b0eef51cf8e1908c98b529bc6aeb1c73cf73431ed656c90be2ae9abe81"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/metadata.json",
+        "hash": "7a9dd7079a213f522388e0936c4ab9742d7d06a9a726345b6cad9e5aa4cbaf44"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/RECORD",
+        "hash": "3730016cb9c29d55ab41037915cf4b6b91d1933e8f753474c891f574c11ca00e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/top_level.txt",
+        "hash": "9ee5c3d73f67858a438f733571bf028d3ca87e93397edd67e3f494154771bc99"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/json_spec-0.10.1.dist-info/WHEEL",
+        "hash": "a3693e41af9130d20999474873b294e95591fc4acd45b58d9710c8a65ee59b7e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/cli.py",
+        "hash": "9412c9b4f6eb4d1fea5d91d0c2c73f6562a7ceeb8aaad41fd7e77d3451194332"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/driver.py",
+        "hash": "a3caf16e98244432ee5278d488897a0dc41dab93b69182f9de6bc99499b865ff"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/_version.py",
+        "hash": "753e1540b5b5fe7aa2d2b1905c93cc9796904b0bd11b20e9eda7b6dc749a2005"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/__init__.py",
+        "hash": "03beccde128e474b954f0af02d1d9a879bb8614a81337cc1fd91ab98ff872809"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/__main__.py",
+        "hash": "f38fd2f2c920c29c828645e87ed64743d567aaaef7fba7a15d2c7d7f8094f91f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/bases.py",
+        "hash": "b782cf029e80fea1b14a96f6576c95a1695fd158051666aa1ddccf9bc0ad68c8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/draft03.py",
+        "hash": "94dd9cd6392d375d80d2caedbaeb5d0777b40f441bf41a4097d76fec120db8f5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/draft04.py",
+        "hash": "3ab8d7fc96ade8a5256d20658c58e27529c2e88f9afe2755198929b655327ec9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/exceptions.py",
+        "hash": "fc1fa5c0a82125d742e0ba830975c0ceb00af62e111499567b91ca7584e26a48"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/factorize.py",
+        "hash": "b08b60e15ffa02b04e34aff6e449dea2c9206ebf8e01d45db4acbda732934b80"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/formats.py",
+        "hash": "e83285cc76bd53b5f34622c35cde112f7ce1e8d84a95eae6bcc6b4721a89a8d2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/pointer_util.py",
+        "hash": "cd2dd989eaff4c6871f95574d77a326bd115e0c7eaf2f875b032777311dfe1ed"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/util.py",
+        "hash": "c336fc7fa64bf560ed64b56a6afda351aa866d0c434d2ed50bfa3840fc15d0a6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/validators/__init__.py",
+        "hash": "170963be338acc0ecf0f38fe7e91aea828d606e7f851e515061545f77b013c4a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/reference/bases.py",
+        "hash": "ecf18512e5d147797d1ddf11366c40cd10139f78eb0929b48e6c95f188dd86d0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/reference/exceptions.py",
+        "hash": "a5c1f26abecaeb81f7651dd44f94de8e5cc22d2559258827345c33073ad47a9a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/reference/providers.py",
+        "hash": "0e40d2decfd5f68a089c18106dbc18ad555c69468b911c786e6dbc66ab71f70a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/reference/util.py",
+        "hash": "2f2231f8134c0dc99739dc17c639aebb1d1c4304426d0d4d79ed96c58f342d88"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/reference/__init__.py",
+        "hash": "5b8b62c80c0951cc586b1fb3b2be85e4712e6b5786e3e3046cf21955bd2d07c0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/pointer/bases.py",
+        "hash": "e8b3aa73007197319bdd17f96b3001a562a9202d6d15dc8e473032c55465f87c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/pointer/exceptions.py",
+        "hash": "615906bb5234b4744a1bed77d16bb32c859eb6c34d99071b02358fb37f274088"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/pointer/stages.py",
+        "hash": "309e072f2f02c301042665c1cbf5068dffd065479181233e6bf9159df89a5ca5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/pointer/__init__.py",
+        "hash": "84f6b82ec2bb9c0000f70a9c2a6ee13c8b244def6d7420cce83d6917e01aeaed"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/operations/bases.py",
+        "hash": "cb50b63ed376675adff82d63e85fbcddc25f64370fac2219af12858f7f282368"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/operations/exceptions.py",
+        "hash": "6f95f0f8de9eefa5ea2892baaeff89321b1427d22389eb1c798729ef6a89d2fc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/operations/__init__.py",
+        "hash": "5a3bd427b294ffa61a82b4cb4de8af883475cbefcc0340337d44452022862c49"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-04/hyper-schema.json",
+        "hash": "dd7543017aed1486b87a0d6cd0198620ea538d4449f289e467ae8a1adb5db5b5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-04/schema.json",
+        "hash": "7353ff13faa979027813b95c8b35f992057822696a70c43c79b3bfb7249e76b4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-03/card.json",
+        "hash": "c8501fc51ffe46b40518bd2bbd65d926d83716720a150b3a32306da23388c280"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-03/hyper-schema.json",
+        "hash": "c3cf7354e494b81cdc2304361fe04d9f5ca5e38d7062fd65ad0fd4c160599e87"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-03/json-ref.json",
+        "hash": "4665afb634b5c4696e378da3e7829acec661ada788e27e9fe8b48fa67df34c52"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-03/links.json",
+        "hash": "4665afb634b5c4696e378da3e7829acec661ada788e27e9fe8b48fa67df34c52"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonspec/misc/schemas/draft-03/schema.json",
+        "hash": "5169fd04978ddbd431d66e2ea08a04240878c2bad808d86694f03aa6d87ab99f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/COPYING",
+        "hash": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/entry_points.txt",
+        "hash": "29a55404148bcb38b99da524560fabdeae93fe281d2e068763a326de82d7ef7b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/METADATA",
+        "hash": "99ffa873844d58a8a7ca98fe020409c1fd7b123c38262bbd987d490cf7372d43"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/RECORD",
+        "hash": "47508ed25adb333a786b11d6614fcf00ee35ae6e2412c96b69898911f8db77b0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/top_level.txt",
+        "hash": "8c6a0d4bad6f0ce354f14ee9d1369ffb2ffc2551b5676089e4489feb330dfdcc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema-4.4.0.dist-info/WHEEL",
+        "hash": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/cli.py",
+        "hash": "95d02e6187d8f4ebd02e7013e4f110ac6427efe7c1cbfad263f57d65eb233fc8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/exceptions.py",
+        "hash": "badbd98c4ec7040069ef0e575d689ed0492c1a998a0fe1dbdb27dd390f7778c3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/protocols.py",
+        "hash": "95eea00a7d99afe8fc46e1ae235985efcb38f373d651a19c386dc68670a1bf6d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/validators.py",
+        "hash": "889ae3366e89fbacb24014aef391c27c3c9fb6b9fee25a25b6a12b7c8705b519"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/_format.py",
+        "hash": "32a7668993ef41cb1ec87dbc6f2820ab19d3506079da83fd5f58e24f9c95c03c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/_legacy_validators.py",
+        "hash": "f8b957b8f0fc9f5bd42383d4c612e9e7130b3d740d97b3e22f7298426ba5c9ca"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/_reflect.py",
+        "hash": "aab13dbbacbf77b31121759178ddca8b0932cad9b795087a3df763f6abeb6da6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/_types.py",
+        "hash": "fcd0e6dcec5d3cf580a814a97e8e1054403fa2a7ca3000a0d50b25571d12f74d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/_utils.py",
+        "hash": "26c15ab535be74f4bb5781f95dd9fd6b0d791e53654b1bda3b7893b05a96b3f6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/_validators.py",
+        "hash": "6d1817b65e14a43e659b2e6a64eb707bdd88242fbfd816d4c7ca19cca0f0e331"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/__init__.py",
+        "hash": "87497644f54cf648a653bfa34d22a812782e577406bebad0be59c937717a50f9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/__main__.py",
+        "hash": "49fcf564d7a88329a3fca671aba25763717a3bfd6fdbcb0b222b24bac89f439b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/fuzz_validate.py",
+        "hash": "19e3651507a94bb6b1ed287dd222125584178d490f094174736d2310f80fc7cb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_cli.py",
+        "hash": "cb9dae0464c481a6fa2219d32d2680f78c544cb2e9dce292422cb7aad8913024"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_deprecations.py",
+        "hash": "a5a32adc7777df30df56c2694ddf793003b323acbb228510e5bae0a7daaa55d5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_exceptions.py",
+        "hash": "58e1459afa7d97d3a0091f9b3f1fd590b89fb8d367ef19cf7aaa6a93b4e3c5ff"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_format.py",
+        "hash": "1aee1aadee3153245073c60bd33f9194338873dffde884aff3785945ff11dadd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_jsonschema_test_suite.py",
+        "hash": "e448fdf3125eeb53c1c3cbb06a7a18fc3e73318e708afcb774e8c19f7f2df6e7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_types.py",
+        "hash": "0f2bd228fb6e688bbddcb91d7bcd0f90990d38a82f09b6836007c7cf4cb1c8bd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_utils.py",
+        "hash": "94945563241e6504d409353f337061964c4f3208ec73c29009ded4fd0928a24f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/test_validators.py",
+        "hash": "aa4345e4548ca81f670d2ae6b2e7243b1f8c3860d74d44c3cddb4e0f08e7ce71"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/_helpers.py",
+        "hash": "ddcf9bf422b471d19f86db94873335023b6a3ed476545bdf70a0ba1b68346bed"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/_suite.py",
+        "hash": "d6e73f94e1dcc31c9fc8bec3ba34503333e0df1be8428564835e64b374700a39"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/tests/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/draft2019-09.json",
+        "hash": "7b761b3e121f0a0ca1ea2a0b8e2cc856bcf801604b8268d71bacaa202bc0c13b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/draft2020-12.json",
+        "hash": "41da76f5afb7ce062d248f762463a92f7ca47e4e0f905b224ba6afeef91ded0f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/draft3.json",
+        "hash": "d8b6a70a0bc1ad44fc132937ecab33cc28c5c6e3b0d1404539e4be6a16f90ab8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/draft4.json",
+        "hash": "77e559fb39a8817232a6739b3063d3fdef3c4cf67d65be348dddbe16ebecf63e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/draft6.json",
+        "hash": "c29dfce9f54835c3a06c03b3c5d5ec0eda77706568f9c4df7cfbc7566a51006d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/draft7.json",
+        "hash": "3d5392088261606c559b603f385329c9f1ab45b5d667eb990687453b055d405e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/schemas/vocabularies.json",
+        "hash": "496ee83ad6ba6e19047550cf04a82fae8b33b4c5bf5322acfacd38a60a605eab"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/benchmarks/issue232.py",
+        "hash": "aff57509a635acb1cfd140b1a047908597b993040191d41874f2a6c428fb0db1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/benchmarks/json_schema_test_suite.py",
+        "hash": "3ef7da6e9518705e3fedcb180d37136ae103f2b9c510661b758e51a935c3d3cb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonschema/benchmarks/__init__.py",
+        "hash": "034b10af10c15474b243ef2bbb72f5d613177f7abd815b81f71fd88076f847d3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/entry_points.txt",
+        "hash": "ae186b636335a9c06a5d975cb04edbdd6cd9611f4aee3a86f0967f050063dce0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/METADATA",
+        "hash": "62920b82da264869c19cc916027a220a30a5b6bfd783e3515004a8b9d76a6b92"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/RECORD",
+        "hash": "9a2d8bbaf492fb9d40eb3d256cb29a7facdaa1a2d9daad67965403b0d130d818"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/top_level.txt",
+        "hash": "66461e9ebcfb0b46d0325377367d1560c590736566e737dc1904ce268c1e7040"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw-1.4.0.dist-info/WHEEL",
+        "hash": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw/jsonpath.py",
+        "hash": "0f91cc77526730c29556e9124411a0bc5691a098983db82b299133040ec495cd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw/lexer.py",
+        "hash": "1b6e1233f5765ab1c20043d5c5c6db257e6c6855bea5300a2749d35c50accb90"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw/parser.py",
+        "hash": "4814acc2f83a0dd4f283e876b814e4d7c50023ed820009f071f30faf2bbca0f6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw/__init__.py",
+        "hash": "a6d707ac26bf94a4e03ff38b53211e88549fa258501b9c2cc7301c914ece6526"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw/bin/jsonpath.py",
+        "hash": "05e483b9e63a70af42630a00a010d4eba794c24effcb68aa5af421707a9c82c1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_rw/bin/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/entry_points.txt",
+        "hash": "5513ccdcb9184af43aa757bad633a6e7f3591d31c2676c6ffb649b87fa8effaf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/LICENSE",
+        "hash": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/METADATA",
+        "hash": "bd4419d7570c5128ec56a1c3c015ffe3121229f68c364f2a9239f95c2ecb4ab5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/RECORD",
+        "hash": "4663de5d52b9c30976aaa3000f7981fec2f0807ee59c867da893289a1d15750f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/top_level.txt",
+        "hash": "49e61d5167c9e0a48341b7761a713a04e77cbcc1bb2ed6bd9db21f4f637bc5b1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng-1.6.1.dist-info/WHEEL",
+        "hash": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/exceptions.py",
+        "hash": "59b9b0563842b69aa9d1e9cddd2778ca695918ff1965492f4fdbaaecf5e212ae"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/jsonpath.py",
+        "hash": "cbd62948b6c60248e066a893c721204b588923a7185b90ecc0925088037d3359"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/lexer.py",
+        "hash": "4027a3933000de59a4c382f5a4984d45e58bc87221e563fb49e230a9acc6cd0a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/parser.py",
+        "hash": "19bd1238efdb92801fc792a072c2dbb927418e4347d08cb50584da7377c6000c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/__init__.py",
+        "hash": "67fe6cbd21e24f68b1ecee4fa1f59a4274074a8ace91865afccac098a5c376fd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/ext/arithmetic.py",
+        "hash": "0af445d1d9c55aeed5d6fd97ad0063ca63c91abc58588af87dfe1e7e14103a11"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/ext/filter.py",
+        "hash": "410b4aed79f0f18fd604086c41895d3cd9eda19b2aa118f18b1402d0269cff7b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/ext/iterable.py",
+        "hash": "8a214acb3ff0be9914444c7a8968c703bb43b26959d80dae7049a043d53c85f7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/ext/parser.py",
+        "hash": "ba9ba6ff3c7c318780c484dcea96c12827b3904e7aa83fca42ea70e1d6139f25"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/ext/string.py",
+        "hash": "200de0009837ca42625fbfa02d8a0149dd2b4d89097758ce7c8cc9de61cda724"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/ext/__init__.py",
+        "hash": "a310078b3d7ec5c46c0d7fca1830a2061e8b18fdb31d92b3bc8dd0c6b15387a1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/bin/jsonpath.py",
+        "hash": "0b83c25a3c5246c9002e1fd9ec82ce169bc73633f91cb066467c5bceb6e083df"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsonpath_ng/bin/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/COPYING",
+        "hash": "82ee776ee8a28fde9af56d60d3139157847a1a6ccfb6efb1999e267c73a8bd84"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/METADATA",
+        "hash": "3e7344feab1b33af20ee82839af217240fcb97c4e152e7965c8e33afae28fe5d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/RECORD",
+        "hash": "a4af49c307bfecf62e521530c9dbaa0f4700da045753e7387802deb37952f575"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/top_level.txt",
+        "hash": "584b2f9b12fdae38e57c57f61ef1a2c5a9053ba4022a70ee21b7923d60d9537d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment-0.4.2.dist-info/WHEEL",
+        "hash": "2d14be19214dc983cb04968927a931764e14aed6f890455759ce43a40f22bfaa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment/comments.py",
+        "hash": "76fcf566de4e6ebc3320a7802fa1a362f3e99c6c3343b57e36ff67529e13887c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment/wrapper.py",
+        "hash": "feb5862edf10467d7da32dd6c6a2a980eb8488c49966714fc2d0e176fd13c9f2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsoncomment/__init__.py",
+        "hash": "8ddff00d34e257b0fa9862b15041bb7f6127b348d16a91d9a68112705693d268"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/LICENSE",
+        "hash": "48e70479605ebced2e95a3c9d596f040726b3ca0aac235d0ead500a3f2eb6261"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/METADATA",
+        "hash": "1e8c5d6a3e018881c20c025f0017fe64a8be9a92028ea185cc25ee1ba55ef9a8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/RECORD",
+        "hash": "d02a833de501be7147692ea140678db25ac9409b36c63719b195b7fe2e16c56b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/top_level.txt",
+        "hash": "e697b6e2b567a6a2a5375c7548007abe981c9341105f36f51c3f924e32eb0971"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl-0.2.4.dist-info/WHEEL",
+        "hash": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/document.py",
+        "hash": "d516dd6d13a6b35a227b1a77ced5d724d5670504a542c708ebb67f2afb9242b6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/exceptions.py",
+        "hash": "d7f92fc39603802012baa0f743de1e9b2d05813761902fd8b812a1786a79d58d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/registry.py",
+        "hash": "e0443603b03d73934327c5fd4d5d1222e41cdd37b19723d51a2f64a5f77774fa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/resolutionscope.py",
+        "hash": "c72d791729c9ea3c6f0a93db910c2286a2ff02937ef7e48a613e32d99841626f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/roles.py",
+        "hash": "37c19366278f9884d51d5aa4c19f654f67e5ae2f327ae18473f3e9f2dbecce60"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/__init__.py",
+        "hash": "1dabfe87ad3fc7867fd7e48fc2d817a3a1c59afd9301acbfdf159fa28b53f078"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/_compat/ordereddict.py",
+        "hash": "e0ab05b9ce95f0880744e08752efb8bc2aebdb564f3de6bb67472f5fd02343bc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/_compat/prepareable.py",
+        "hash": "4ff8014d71a22bfd333f357412a3969555144305b1f2a278a1fd7092c4c3c2a0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/_compat/__init__.py",
+        "hash": "59fcfa874da466c895bf335d6402ead914daed7a446de0237a213c0854f30bc6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/fields/base.py",
+        "hash": "e2493c02fb2a01d4667a0550d783eb59c19f37045491c84b7f0774a2daa5cda3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/fields/compound.py",
+        "hash": "d97e392c4f219f0c92b0c534ee910ad0924d3449e5a2667c4032f46453ad57b7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/fields/primitive.py",
+        "hash": "5d266dc1322da38b2109500214f31729b9ca2ddddddf8db6519e9bb2f2ebcfdf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/fields/util.py",
+        "hash": "6e8ce48713671e458a5b8d9b6e377303194ec5c8e70b15e179782d76900a2022"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jsl/fields/__init__.py",
+        "hash": "6953f9fe5be206f644616983dc8e135e62da072a5d79e5998836f29abe28c923"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/entry_points.txt",
+        "hash": "cd177ad9f6ea2327d4a6c46d53b115205ca2bb5b4fc1f80eec4bcf12b9f18131"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/LICENSE.rst",
+        "hash": "3b49dcee4105eb37bac10faf1be260408fe85d252b8e9df2e0979fc1e094437b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/METADATA",
+        "hash": "d1c2cd6d1088f758f2b5cec1cefdd70107d9cc50c5da0c6426e1f8e9e179bdec"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/RECORD",
+        "hash": "7b7bc9a93920c0c8a153d17d2138466b0613148eb884d5098a380fa3ac70b24d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/top_level.txt",
+        "hash": "3e47955ad2dbdfe0aa8d68b57cedbd3826e3e791215ff72184aac276b55eff3b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/Jinja2-3.1.3.dist-info/WHEEL",
+        "hash": "a2241587fe4f9d033413780f762cf4f5608d9b08870cc6867abfde96a0777283"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/async_utils.py",
+        "hash": "74572687a94c35f6e1ede2caac18a8f09a8028b1dd65ba42baeac537838446d6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/bccache.py",
+        "hash": "9a1cf9c6d2f109c1d101ae7a6b33a1a612007b5f6ed707b4a2389f34c0a50e2a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/compiler.py",
+        "hash": "3c9cd87512d2b6510eaa69d0b35631962ccfac9a23de34d9b9495e4449fa0084"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/constants.py",
+        "hash": "18ca05c9d045fe476969128fa0ce5c97932f8aab9544b57266d7e9e7ed7a8e0d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/debug.py",
+        "hash": "896278df645a77124d9da30e3eb8c80c89f3e745048278b7fc72ae1578b6bee4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/defaults.py",
+        "hash": "6e805c4b0efc87e969db461b697489b2a900236b8dfe60ff4ed0b27697aae705"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/environment.py",
+        "hash": "d2a95d5f7550299726ea5827ef31f3f78a11168c3b60f604462aa4aaea263635"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/exceptions.py",
+        "hash": "8a81de1eb5b009635a5d7d629c798755b96f73885a3bb017b230a9dc67d6bf1d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/ext.py",
+        "hash": "e5f9cca6595a5e47e6d8fffddd122f8be3a72bb4e4f26096f03bbe19c0f5d877"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/filters.py",
+        "hash": "bd88ca6f6cda3d286f62d9ff2e94a6a9f4bc49271bac0fca39a9cd89bb0c0c81"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/idtracking.py",
+        "hash": "19f36669d8abe280c02d5c739f70cbf582278490ebebd79b5de036ca07ee0860"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/lexer.py",
+        "hash": "0d6da75fdce4fba316a7ae584766eaaa3d31a82bcbb43faef4d593f009c54714"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/loaders.py",
+        "hash": "6b2030c5fac0d5201f7d0b5ad27c120e6dd30d3e0a62220637f0fd678e41df5d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/meta.py",
+        "hash": "18d3c4be27e649a53708cc656e17813998de676efb1d384e3d44dfd51929a4a4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/nativetypes.py",
+        "hash": "ec620600b54981dc8bf34a1925d4146947f04ade6ada549265b5edd1d35ffcce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/nodes.py",
+        "hash": "8b7e063d10197b15cc4fa6f0b9fe52132bdd992f9b442cbd28c8f03793baa639"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/optimizer.py",
+        "hash": "b4790cc17c5f6646df0352a62dcaa604c49acfb44b22fbc8b6b25c3e85d3c83f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/parser.py",
+        "hash": "635f7dc0f2fe1baee02688b91bfe6c1eebbdb843f53c99238cb116ff14c7f3e9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/runtime.py",
+        "hash": "ffa2e428858526341daa5ae00372b7f7304543eeceae6df01839bde91c314281"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/sandbox.py",
+        "hash": "634c597974271fa117e558da576622c444b1a1ea6745b5bfdd4790a2c6815373"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/tests.py",
+        "hash": "026e59e8b99faf65da1ff9e921f249f0c757b56b1b2e33142d926e953023df41"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/utils.py",
+        "hash": "20cc1121c3754ac4f0dbe8dd42d947d8accd001b176415bffad9c55da7d006f6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/visitor.py",
+        "hash": "307d780bacaadb81bf295b56ce3c1a23b5a0d783c2248625596d64a64c586a4d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/_identifier.py",
+        "hash": "ff361cb4d2b346a964fe6bab4cd973ae3bb514524bed56bf223aaa77b8a2da55"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/jinja2/__init__.py",
+        "hash": "353070330b040ab7479b179717bb1ebac1cbceb87a2dd9f503daa14b9703b9fd"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources-5.12.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources-5.12.0.dist-info/LICENSE",
+        "hash": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources-5.12.0.dist-info/METADATA",
+        "hash": "b84635d2784a23ee675c89a75e0b0db7b04361feeed90c3cf813b62b68669490"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources-5.12.0.dist-info/RECORD",
+        "hash": "f37640ffd72c861f0db213b7e6cdb2f48d169234e21a31b5d83719e88185ea7d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources-5.12.0.dist-info/top_level.txt",
+        "hash": "7c72231d4d46670023bdcc9da6652752b4e76ef7625a31b83845592bc6f2d134"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources-5.12.0.dist-info/WHEEL",
+        "hash": "db07a93359e4e034b8785a58ad6d534ea3dca0635f1e184efe2e66e1c3a299ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/abc.py",
+        "hash": "21caf6209d90b47eefbc007dbc2e56449f4a068683c896bb294b3c31cb913b3a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/readers.py",
+        "hash": "8bcd27e3d2f6ac102d941f5b534cc07901e2117c5c74ff7dfa9591e840feca96"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/simple.py",
+        "hash": "d3fff64d0053428aa46a362634fb751f11117117804fa6e854a240df6f29af4e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/_adapters.py",
+        "hash": "be9ac919b51e1db6a35fa5c2b8c3fa27794caea0a2f8ffcc4e5ce225447b8df9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/_common.py",
+        "hash": "8d20b8c5f2dd70c35bb5b587b69cdb16435ad16ee4bdffff9ec627d780bf0045"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/_compat.py",
+        "hash": "e280c93e9a3adde1ffde5e419011e69230105b81c6b39aaf61ddbece22c0fdc9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/_itertools.py",
+        "hash": "7838ac57a46a88d64ea202d25dfe8b3861ce61cefd14680faca34bcc52e60ab5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/_legacy.py",
+        "hash": "d1329d662c712d603ec70b40670e07729a899a3e17a6bc7566472dcb48134596"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/__init__.py",
+        "hash": "7af3e6d7690b818a939bea5bce6eb46cebae9ae993f08a41356169d2e332af31"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_compatibilty_files.py",
+        "hash": "f7937f47b6a293c72f9c4eac049a6cc663f42b9a6539644824381b6a50fe1e9c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_contents.py",
+        "hash": "5755df93796a4c376f52c66e575f0a9dd7f4093fed90cda8108c24f55bf4ae18"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_custom.py",
+        "hash": "8d5620f6274455d50dea274751f0c3959fb30d6979eaa60d6e3e50adc64eefa6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_files.py",
+        "hash": "5b95e8056493afce0a7b5e54b63a962deb768940d4c897d0c5b493e0f0e58f6c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_open.py",
+        "hash": "f6abdd0ba12ed8a9f79a1df10d1e4750442878f48a21e713c54e2f9c7f6f78ef"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_path.py",
+        "hash": "5d1e5123bff39dd23f36ac3d787535b43992188a36f4dd463fc20da1d3dce7ce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_read.py",
+        "hash": "058751a99104244d7b3473c0ae9656f55b08c0c9676b50691f25a4802bc42969"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_reader.py",
+        "hash": "612d511c3cd2228ec3cb7021a0aeec63e7055881677e430d7d0477c655ec822a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/test_resource.py",
+        "hash": "70f1f3ed52f0aba6c5ce767e243604ddfff8549b61433b511ca86203d4ab893d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/update-zips.py",
+        "hash": "c7e4ab3b9bfcee22cb50c5f279fc43c007778a602cfec948f78b0b5af27a378d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/util.py",
+        "hash": "4d0cf5daf4a41cd8c6945de1074391e24c76b0247ec5c8f4c08d9eb03c8747d2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/_compat.py",
+        "hash": "613481d14d51f680039e1e86ad070e0a0a23c5c17f37a1f52e497298459ff524"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/_path.py",
+        "hash": "9e4bf77a4ec3d54f3df2ff76d6b61b95d0c2b4aae2da8c983a2dc426a1a31065"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/zipdata02/ziptestdata.zip",
+        "hash": "c9d23efe3fb1810eed0f1a81a7d7233aa5c11b1529e9905bc1526ee978fe9eb6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/zipdata02/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/zipdata01/ziptestdata.zip",
+        "hash": "cf939fe1db2fdd3d2dfb8e81d0cb15871961b0f18ccf6f1a5212435a98f7fe86"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/zipdata01/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/namespacedata01/binary.file",
+        "hash": "054edec1d0211f624fed0cbca9d4f9400b0e491c43742af2c5b0abebf0c990d8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/namespacedata01/utf-16.file",
+        "hash": "b79abdaa1c57d2b62a22d04e33c0f7ca5c06f911eb9ce62d7932ed42beac17b8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/namespacedata01/utf-8.file",
+        "hash": "9305a0606e3243e645d97fd603ae848d83e6c49467fb0f1a48e892f5ef2d2986"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data02/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data02/two/resource2.txt",
+        "hash": "96dda36cddd3327f5088528cf37d97dfd6d4ffad94a6d0dd524a18ce4bc46e5d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data02/two/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data02/subdirectory/subsubdir/resource.txt",
+        "hash": "8e7ac1073b7162bb50724edc9959dce314153b8f9a8330190c64859005ad945c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data02/one/resource1.txt",
+        "hash": "d747e529a73b73e5d7173277b7e001e4c263941cbffdd499bcf13f74e9b6aba5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data02/one/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data01/binary.file",
+        "hash": "054edec1d0211f624fed0cbca9d4f9400b0e491c43742af2c5b0abebf0c990d8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data01/utf-16.file",
+        "hash": "b79abdaa1c57d2b62a22d04e33c0f7ca5c06f911eb9ce62d7932ed42beac17b8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data01/utf-8.file",
+        "hash": "9305a0606e3243e645d97fd603ae848d83e6c49467fb0f1a48e892f5ef2d2986"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data01/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data01/subdirectory/binary.file",
+        "hash": "054edec1d0211f624fed0cbca9d4f9400b0e491c43742af2c5b0abebf0c990d8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_resources/tests/data01/subdirectory/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata-6.7.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata-6.7.0.dist-info/LICENSE",
+        "hash": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata-6.7.0.dist-info/METADATA",
+        "hash": "243af3bae2d11370b12115cb797759186143ad59445d4bedf9c866d3eb3e4ed2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata-6.7.0.dist-info/RECORD",
+        "hash": "1002dc778587fb452cca3ddc3bb4f5ebdece8b4cb4ca6431c7471345c39e5f7e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata-6.7.0.dist-info/top_level.txt",
+        "hash": "08eddf0fdcb29403625e4acca38a872d5fe6a972f6b02e4914a82dd725804fe0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata-6.7.0.dist-info/WHEEL",
+        "hash": "a6472d658cd44b8018567e9d27eef7ebb389662bc5d9ef1103d6ff6418e27f5f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_adapters.py",
+        "hash": "8bc4ba21bd4e4237082c0fa5e2093392d3197b5f1369e50d238f4f2d1a7a3815"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_collections.py",
+        "hash": "089d0e4c21c88d6034648552e2fa0e440b27d91e11d9c40112d3ec6442690126"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_compat.py",
+        "hash": "c5a883f29c1860f096915811df4e35d624f83a62db49b4808a0ce1a749d344ec"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_functools.py",
+        "hash": "3ec636fb8aeb297e1155e442d681a9d65075a660bd78a37cf3f7fe6c3f6e3a80"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_itertools.py",
+        "hash": "72faffdaff0145bc5c225e71e6575fa9d1e3848f188bcb3cca4e741bf9e6ea34"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_meta.py",
+        "hash": "23602e69432be5ae9c4dd665795f56a72a94092a28aaa57ecd2cebd6a9fb14cc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_py39compat.py",
+        "hash": "d93939b706ff5602c263ed4d100423759a7f4bd385302fa95333f68acb9a3ec4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/_text.py",
+        "hash": "1c2b0592c66924b7933f734493f9e0ac079755146d4ebb7287d78e001a113f80"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/importlib_metadata/__init__.py",
+        "hash": "310c7fb54fe5660fbb53dd7076b96bb03b743063d7929ada2debc1f0b3b534d7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna-3.7.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna-3.7.dist-info/LICENSE.md",
+        "hash": "a59f0b0ef3635874109a4461ca44ff7a70d50696e814767bfaf721d4c9b0db0f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna-3.7.dist-info/METADATA",
+        "hash": "3a2c4293e74a2d990fcbe31fbe23a688fbf02753b62bff2ba82ac58c2feec72e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna-3.7.dist-info/RECORD",
+        "hash": "5c3a33afa2552aaf0bf02aa5c1de944fcfc7eb988705f7cf4500d121225bfd87"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna-3.7.dist-info/WHEEL",
+        "hash": "1196c6921ec87b83e865f450f08d19b8ff5592537f4ef719e83484e546abe33e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/codec.py",
+        "hash": "3d2ea6f9799d493ed68fb27bba544c6a43c3b7910127262b4f708fb6387eeede"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/compat.py",
+        "hash": "d3fb0e114313e02570f5da03defc91857f345f5f4fc2a168501b3b816b05304e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/core.py",
+        "hash": "972869a1edafba511a07feb9c615e6a0a80efb152a143bdcc31bb986934d3b81"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/idnadata.py",
+        "hash": "76a470cadce48c81cc05ad91d6562f1c3c0009e9d93edf1e195bb563c50113e1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/intranges.py",
+        "hash": "601af87d162e587ee44ca4b6b579458ccdb8645d4f76f722afe6b2c278889ea8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/package_data.py",
+        "hash": "4e4b742a721ec889671dd74e6b3f564a4922b25360a24240b84fa9e46a2b32aa"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/uts46data.py",
+        "hash": "d4aba4b16a8bb9c70f5e6daec9156485f8852cd22133f1f69b86b309c9cea845"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/idna/__init__.py",
+        "hash": "28940dd5e401afc8882b948aac9e3b957bf11b4049ecb9b7f16e334f4bfff259"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml-0.7.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml-0.7.1.dist-info/LICENSE",
+        "hash": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml-0.7.1.dist-info/METADATA",
+        "hash": "369d3cef64870daf849fba711cb8d05a7efe3c8d9ab0f763adc34079fe378bb1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml-0.7.1.dist-info/RECORD",
+        "hash": "e473693c4780fef72b51ddd4930d2c025d6846c77ca4a8b11513434027412367"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml-0.7.1.dist-info/top_level.txt",
+        "hash": "4061daf74179d2954a856485944448d23b522ada83886c9f7995fb750359000c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml-0.7.1.dist-info/WHEEL",
+        "hash": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/cElementTree.py",
+        "hash": "3e968a321deb536f6c63c6a600ae1fcc740a97c81c0180f48752c2a16eb646d9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/common.py",
+        "hash": "ddddba8cd5b87cd5f38235a1bd47ecf3701f8b3e44571143ba941bba09123197"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/ElementTree.py",
+        "hash": "18b4aaa42cf9f285c63c6cb37ff1f296c3d2f7f75c1953f948de1d2bbcafc8fc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/expatbuilder.py",
+        "hash": "6f8434e6fb01309e52b6489315fe26cb6ac61a8d60672125fe10b931e1533800"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/expatreader.py",
+        "hash": "28ea52af0912be3e5218e63da535ce336e839f3d34aec26ddf75ae795bf3a6f7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/lxml.py",
+        "hash": "1d6f8b14a76b7cc4731dd8b455cb9cab8fa7f32cfbbff390c04416160d494180"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/minidom.py",
+        "hash": "dd0720ca057026a7160d0dc86768a897ccec1f8731dc1457ef448f71dd1b1b68"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/pulldom.py",
+        "hash": "0d88f60f695cef1a31677f207f3ba35e67739ddf28bf30ea1855eac976edc639"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/sax.py",
+        "hash": "f92174f0cb1cda6584600330eb6a49e4533059c70e72d1529d0c032d82cb9551"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/xmlrpc.py",
+        "hash": "eeb6507b2deda9771cd61aeb337469ace20253a7e2167cbd07d9789e64e2a310"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/defusedxml/__init__.py",
+        "hash": "45ccde695246eb8a76160cb58e50b36ee45d72110f9c468206bc6093c249fe93"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/LICENSE.txt",
+        "hash": "fd11660cabf0532082c45706862fafc294907ec7f8e217818240a4999806782e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/METADATA",
+        "hash": "5c0af6cdb6294710a470f6ec9a0d686a24b979aee6853abe8fec1bd178ee561a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/pbr.json",
+        "hash": "00bf38a14516407c2477c3823e12d1a363498d4e4c0dd99732a447bfea68b2ab"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/RECORD",
+        "hash": "62879ae5afcef970f0dfb8670658477b5aa86784b88c70d911c3db8c49ff88dc"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/top_level.txt",
+        "hash": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/decorator-5.1.1.dist-info/WHEEL",
+        "hash": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib-3.1.3.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib-3.1.3.dist-info/LICENSE",
+        "hash": "5efbddf3de03125f255073c478553e61ad7c456ec77362253d3652fdb1371e0b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib-3.1.3.dist-info/METADATA",
+        "hash": "6fc401cb5ca47356efe88945bf972cce1bae47a9ea3425ceb2beb5630034ee4e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib-3.1.3.dist-info/RECORD",
+        "hash": "7fdb9a9b7a069bc0b6949a72c34a2373375fd220680b521466851efff4f582a5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib-3.1.3.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib-3.1.3.dist-info/WHEEL",
+        "hash": "bd50af8dc9b1b9496d7fc718849d2c24c4432ebd57b0fbb110877c603cdbc826"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/client.py",
+        "hash": "6c26f6f0d4474660c19052cb6b47982be094b07f26e2853d8d1d3485031286c7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/__init__.py",
+        "hash": "28f3a7292b261fe780189c19dcb41ecb808c98988240e2ec7fcc6f2a34a28941"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/cloud_connect_mod_input.py",
+        "hash": "e6d2a111f5dc1b73816993f016af5dda7ba156451b8e625d00083a1f9e0ef350"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/config.py",
+        "hash": "41f85e5fc67ff074e549896ac5194fa4b7e07462cc24d2f41d9ffaa717460b87"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/splunk_ta_import_declare.py",
+        "hash": "0c7f16f23f39b03aa95414a84fbbb1969ddaaa9fcb31c1bca723d36e582b3e75"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/ta_cloud_connect_client.py",
+        "hash": "f3ca73f013528080f667fead99478b53cc04699e3a1b15077cb8bf8048d2739d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_checkpoint_manager.py",
+        "hash": "57e40e10ba35e2c36dbf8f0c0ff29c784681856c01c187524369f6144d84c6cf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_config.py",
+        "hash": "8909cfc2570d856d16cdd083bb74cf1fc6ea49994c211ae1a4797a0f7f216ed5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_consts.py",
+        "hash": "f67b34cbd4ceccecc521f4f3d005474b60f0eba6c3d5e7855e81f9c466f8f814"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_data_client.py",
+        "hash": "115cc8535fa662a67c920df503f6c70f44d5c9dff837b0f64f9cd69e03e70579"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_data_collector.py",
+        "hash": "0610a816bdfd156503aa8ea2b5f70f432f05f50197a8157fcf3a76295a405200"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_data_loader.py",
+        "hash": "e4b0ac84ec70e08e5eb274b0658f864843f641fa3b5b029cffbc94d31ed4ca39"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_helper.py",
+        "hash": "9210940891385e3cd79aa626a2eca278deaeb852210c3d03e63f3b5348a2da56"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/ta_mod_input.py",
+        "hash": "5b85abd9a480d5a06ebaa2d9c1188697d0e16f5f3b758c57d79db4e9038454d1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/data_collection/__init__.py",
+        "hash": "283ffa5f7c7b4c11f2c8303280923efdebd092ebe40c5b6e1c7c62a18282f42d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/common/log.py",
+        "hash": "15ebbcebc73df2a2580c6d97459dfa68f966f262f092556c841169fb6a7f5bcf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/common/rwlock.py",
+        "hash": "3dfb577b9fce281087aae79507349a019b5e49b6c99d1ca9aa0971ba2b694e0a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/common/schema_meta.py",
+        "hash": "937a0a06853b9ef057209079956bc877290a3e9bc1576f73caf6b27766efd8e4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/splunktacollectorlib/common/__init__.py",
+        "hash": "cd4408a0e0d389e58f38082b00a53474fd52012fdce881759752c45cee4bbdf5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/checkpoint.py",
+        "hash": "624a4df295056fc676892722bd01c75bd1cdf51aa55fb16eaaaa6a35c19f14af"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/defaults.py",
+        "hash": "551c0820ac4b1a40d088b07b73befacb6ac7b1bd0098c8b717e866cc9295754c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/engine.py",
+        "hash": "2edd11411dbc6056bf5f5704a4e1ff2e94f7854708cc67b6953eed1e7c372860"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/engine_v2.py",
+        "hash": "1531989e8552154b2ebee3a1ff4030a6c0d1378871006c18a9d52a4907149a89"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/exceptions.py",
+        "hash": "a6fdf94a04e055cea884ba7bb28a4660f78833170bf0dd65587d136fa9faff01"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/ext.py",
+        "hash": "9a7fdd76ab9243afba1bb6ca792a9e8393187e34564f4caec690d8ede0e31154"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/http.py",
+        "hash": "bcb3a7722ba8106b78e58824ae5979e8ac6248dd835f7b5388a55b894a5b74ac"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/job.py",
+        "hash": "efb9c782dca2019052beb42211e9dbda8888275b5bcdbdcf0af2fd02ecebb547"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/models.py",
+        "hash": "c18ae49db78d37af3ad5ab22442291ff9a8ca40bc721a0ef284f5b173a56d9c5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/pipemgr.py",
+        "hash": "28038f8cbea4b4f41fa357fba5ea6c89510e1b337abadd928ef6f23886510886"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/plugin.py",
+        "hash": "18dc8e8694fcf8786000ca86dba0f9a6013459c153903ed02455252c40d8e8f7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/task.py",
+        "hash": "1da86a891e96692f00e003011efe13b2cf8236ae470b4674ee5f5724776a9bf0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/template.py",
+        "hash": "96b9e5fb155a8b8e6780d30d8389df3986084ecf66935ea3e67101f6d4776696"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/core/__init__.py",
+        "hash": "d360ddc6142f1e997e9dc6eedc1dc6635aafa16547861a52c983f819ecfd6f15"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/configuration/loader.py",
+        "hash": "8e0cd3923a7e1ec1d159d298451e1d45c19c2dadc5bf8dec64042087e8929eba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/configuration/schema_1_0_0.json",
+        "hash": "58a59b6490325aefabb7e38bc2f368328fd4a818b78b0c476c8711cb4692472d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/configuration/__init__.py",
+        "hash": "bc399c1898e7c719072080a220e78ad054892bf871977489187c1d0836d8ccc7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/common/lib_util.py",
+        "hash": "1aa01d616c33be93979db8d8fff8a8c8320bc21642d8b78e68788a725d2cec8e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/common/log.py",
+        "hash": "1c9d7401f7700be84c6240989215b45b6ec56127066afc4c6eede609415fbff2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/common/util.py",
+        "hash": "a77b5348c00e00491e4f45a65053568174d8b292ffbefc6ca0f087597fa359c9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/cloudconnectlib/common/__init__.py",
+        "hash": "4c1d56db6cd8e6ed5df755d2a2cf106b657934c0a980b4e0222576c13e21c776"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/entry_points.txt",
+        "hash": "e4026afc43ed18653024f8102e70597db56bf856022304f4c4fedd20464edcd2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/LICENSE",
+        "hash": "eb31a0c5a4fb09b8a4e32055d25c1e5f9c358a2752fef3cd720213d1ccfee241"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/METADATA",
+        "hash": "797f94decee76fac1cbd7645c8cd667417f5cb3e08d26b1506036f2c4b1c01ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/RECORD",
+        "hash": "51ed1899ebdd9173e0c4c7730d19b49a1f2564c4e91e9165d45658b75af61b92"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/REQUESTED",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/top_level.txt",
+        "hash": "ec04b2cde3ebf3fc6e65626c9ea263201b7257cbe1128d30042bf530f4518b74"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer-2.0.12.dist-info/WHEEL",
+        "hash": "1b5e87e00dc87a84269cead8578b9e6462928e18a95f1f3373c9eef451a5bcc0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/api.py",
+        "hash": "afffd6cfce45e6960e911c046398a65d8fe9099d8d8a5d4391d680258ed3e68d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/cd.py",
+        "hash": "6bd2b3cddf6d1e5fd6d3c1316c214c99126a768da4ec4050f19ff7cbd0e662c8"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/constant.py",
+        "hash": "e75bbf452d74235bd856905aa3fff11ea7fef871cdad1ea67b5035b1ee6be58d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/legacy.py",
+        "hash": "5ca7993adb3f1dd61053f25bdc2f597ce8d8d828942f5df693dfe75deafc8228"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/md.py",
+        "hash": "584c27bb633222231e11aa2b45dbaa713c468c805c956206de2fbdfd42fa2cbb"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/models.py",
+        "hash": "5eb1a95717e89e1722948582d567a23f7f993911847bf446dec82b7cf2e5f6a3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/utils.py",
+        "hash": "01648bd33d41e3623074b7e35f864c01203d71352c4e9d0fc1e09d5bdf1223ee"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/version.py",
+        "hash": "bb13b6713d1821abd0bf875094d1a61cf20e3b039af9ec6ca715e2dc847b75c9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/__init__.py",
+        "hash": "c76036396dbd30172a771b2fcbab75c33914947de66b482ec4be9909f4bc27de"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/cli/normalizer.py",
+        "hash": "2e4785211735976f2b3a05e911bcbaf79c746dc290bf80fccfd1660376767370"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/cli/__init__.py",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/charset_normalizer/assets/__init__.py",
+        "hash": "14f9df93c96299945bf1921441c4ef3c471bb8cd5ea8e7561b0d2f6d61b2703b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi-2024.7.4.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi-2024.7.4.dist-info/LICENSE",
+        "hash": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi-2024.7.4.dist-info/METADATA",
+        "hash": "2fdfc4b8fa1042f1c5cf1bb4dff72d684671844b72ee29f3e7af631968e52c6a"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi-2024.7.4.dist-info/RECORD",
+        "hash": "ba9002c49bd05651f87a73ff086da63e036a9116d2571ddce737f4a9cdaff5f2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi-2024.7.4.dist-info/top_level.txt",
+        "hash": "28cbb8bd409fb232eb90f6d235d81d7a44bea552730402453bffe723c345ebe5"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi-2024.7.4.dist-info/WHEEL",
+        "hash": "cb8997f92397e1f6089289ec0060393743b2fbcfe0238157c391cd235c6abd68"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi/cacert.pem",
+        "hash": "488ba960602bf07cc63f4ef7aec108692fec41820fc3328a8e3f3de038149aee"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi/core.py",
+        "hash": "a910c31725d52704c1fc49a81a9a5a5d4fd1f6a099be197e133c4f32e5779d30"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi/__init__.py",
+        "hash": "2c75f3ec4f34609601cc206fe99ca2750e7e72261291279ba58d84e4e33497ba"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/certifi/__main__.py",
+        "hash": "c410688fdd394d45812d118034e71fee88ba7beddd30fe1c1281bd3b232cd758"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/bin/json",
+        "hash": "3bd03e26acb9fb81411739f7959185c7019fccbd17a87810babb6bfece728356"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/bin/jsonpath.py",
+        "hash": "013b03367034b2d2bdc85aa647cee3cad44f15fd2d1d916b89f7e9a808db9ae1"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/bin/jsonpath_ng",
+        "hash": "c322d37c53df3bf83b70e66e676e4cabab6b47e2bcf5a481a80e6277cebad7fe"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/bin/jsonschema",
+        "hash": "97104a8858f8cdf4847a17abd31bceac5c06669ea6daf496d4ff2ccbe5746da0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/bin/mako-render",
+        "hash": "01bb9ff90e297ee6513ee5376c5855a0fe7c4e72056b886c835943a4c544a889"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/bin/normalizer",
+        "hash": "ffa54d467c3b3325422fe088350d38e056877292c7c1056077efc3d1c5aae0a2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs-24.2.0.dist-info/INSTALLER",
+        "hash": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs-24.2.0.dist-info/METADATA",
+        "hash": "dc9824e25afd635480a8073038b3cdfe6a56d3073a54e1a6fb21edd4bb0f207c"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs-24.2.0.dist-info/RECORD",
+        "hash": "02114df0f22dadbe76eefb7a756c25f320bfada4ad407dc505c8fea0fc8fb684"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs-24.2.0.dist-info/WHEEL",
+        "hash": "d7215d7625cc9af60aed0613aad44db57eba589d0ccfc3d8122114a0e514c516"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs-24.2.0.dist-info/licenses/LICENSE",
+        "hash": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/converters.py",
+        "hash": "f244258eb5707d24d1bbc20dc0493c488d1e1abce659fb6c4fbaccd04ab2a213"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/exceptions.py",
+        "hash": "0020829a0d7dfaf0c56833d8f6f165d7df523d709030dfdb10db380c02e3ce6b"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/filters.py",
+        "hash": "54e50c66e83db8453a754b80d1d1758c89d42b43cbddf2e03f45414b977e0831"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/setters.py",
+        "hash": "78bd5889d6105774f687dfd2608652651d4501c1c66f54ee093cb41342efd925"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/validators.py",
+        "hash": "c5ccbac03e53b5391d086d5fe1759ba1c3d23b47da06393921f5497cfe92523d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/__init__.py",
+        "hash": "e451e8f84305397fa0e226a548ae1fc0e8eea07ccb212243642c283a5d364f2f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attrs/__init__.pyi",
+        "hash": "a3797dd95b03f641f3f2c95d12d6ffb659414ecdd378bfaf201313c68d9973fe"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/converters.py",
+        "hash": "bcd6b9f29662f55eaec41ce5e2dd50ac76d07e44f8891140a1dc977bb95c820d"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/converters.pyi",
+        "hash": "9a90e85453b70a9c7cc58492574899165ec8007ba8341825c4a7f11ef2e3fec6"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/exceptions.py",
+        "hash": "1d116ae22c9b9afefe0dc670ca397a3357ae33661e2552bf845c6e6811809e02"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/exceptions.pyi",
+        "hash": "cd9abc6c2527280cbd983b41130e366613e1014207a1329e7434089c90fcf373"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/filters.py",
+        "hash": "64188a58ba774742df099b2aed7d75a67f565fc36c952db05cce23b272ce19cf"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/filters.pyi",
+        "hash": "dc9e411be753c65b41935ffe46e351507aefdaabb5bfcbf868334043bfe689f0"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/py.typed",
+        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/setters.py",
+        "hash": "7da3107a2068fe76d76273da435a6af0f5de03b66bfae36c56c3cc88a0a6c617"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/setters.pyi",
+        "hash": "367564685535041e0907c13826e5f2af34d482fb4ca63f29df005d258eee8b1e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/validators.py",
+        "hash": "f7ce5e4cfe911f2a27eb56046ae309832372d6b10e8495a2497309811c4fb6b4"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/validators.pyi",
+        "hash": "2e329fec0a1765fbc649f4f72d1b3ad507e59fde24a276323143e82498cec4ae"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_cmp.py",
+        "hash": "dee987881b60b0462dbcd3fff17ad0c1309d1686485f80c4babefa37ed9add7f"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_cmp.pyi",
+        "hash": "53efd153f5193b23d4110cd713a44c61041c8e4651636e704c7f7db0dd2cecc3"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_compat.py",
+        "hash": "9f6524ddcfb2c2fd0f9057c696fa91ed2cc35e9e0d3a15a6355fd92ba61f5a83"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_config.py",
+        "hash": "cfcd55b7e19e4ffdad6b1b355d97e61f1f535a54b18cf6fa7991f52d31ac4b9e"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_funcs.py",
+        "hash": "4860e6365103d53337b603bd029da67d17d5236e1710072b350b3ba367815c74"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_make.py",
+        "hash": "06310d273e5e268a232556c2a2ea568d72cb11927b5480fcf658ac2db4149664"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_next_gen.py",
+        "hash": "76119bf7a5458389170644bd65dcf5036bb1549f7dabf453d61c3790b03dfae2"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_typing_compat.pyi",
+        "hash": "5c33f9e13527f992a10fad9339079b9b3af0172a268540a8191a5c95be9a9510"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_version_info.py",
+        "hash": "7b14aa6f76f913e7cc4ac819025130f5770ba448286cf391099a5c68482500ce"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/_version_info.pyi",
+        "hash": "c7f3372f75ae07baff50b5c05a3c7de7db9d290e072c1f25fa1b1cd450c636f9"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/__init__.py",
+        "hash": "97c13087929913b0826348b58837d20a7162513224055a2ab178d7f446672150"
+      },
+      {
+        "path": "bin/ta_zabbix_add_on_for_splunk/aob_py3/attr/__init__.pyi",
+        "hash": "69354704f5fa92b086bdb42f3a5fd42aa1339a2d8716c688566d962a6022a95b"
+      },
+      {
+        "path": "appserver/templates/base.html",
+        "hash": "57ca17a3e4f63649c7b7fe1657295b4a34f41b4a36431ba81a753dbb07b566ba"
+      },
+      {
+        "path": "appserver/static/alerticon.png",
+        "hash": "29a92bca573ca3d55a50668d1a2816e57927bec9ba088069cd74cdfef9ad657e"
+      },
+      {
+        "path": "appserver/static/alert_splunk_to_zabbix.png",
+        "hash": "b10807c14ff63735a4eb0f77d854924a3611cb7023a3ad2cd941b84d980da873"
+      },
+      {
+        "path": "appserver/static/openapi.json",
+        "hash": "1a755dc012d1975425a6b793bcb792303d6b3705815ac893caf97d8264ca88f6"
+      },
+      {
+        "path": "appserver/static/js/dependencies.txt",
+        "hash": "5acfbc88ed272b708e80054d39c08e469972faca4d4740f59765045a5dee0ee8"
+      },
+      {
+        "path": "appserver/static/js/build/394.de65465f6270b95d8111.js",
+        "hash": "39f5009c61f841a1fcfbcc32fe66f4dab6d28f9bc287acba38f795ddb032359f"
+      },
+      {
+        "path": "appserver/static/js/build/394.de65465f6270b95d8111.js.map",
+        "hash": "8e358766f8092a32eee51a9c8e7bfe2b6e601ef30eb2d2cbfa45399bfd8809f6"
+      },
+      {
+        "path": "appserver/static/js/build/394.licenses.txt",
+        "hash": "7b001a7be614a5a9b7eba5ba4a37235e2055ca14fabed538b2e1af6ce455bc2e"
+      },
+      {
+        "path": "appserver/static/js/build/518.38647c7f4d5e18fa5385.js",
+        "hash": "4eec15b3dd2b48c9d7b707d949e2c0a3c7402cb2bffd4081841e88f3127eb97f"
+      },
+      {
+        "path": "appserver/static/js/build/518.38647c7f4d5e18fa5385.js.map",
+        "hash": "ce235a958c6155651b7dea2501daf8676cca8d77efb666039f46661488c323b1"
+      },
+      {
+        "path": "appserver/static/js/build/518.licenses.txt",
+        "hash": "31ddc0d4c580685bea09d148e84d24b5117fb56bb44d3a0f1741f0505369eb81"
+      },
+      {
+        "path": "appserver/static/js/build/733.db3d9d308b1e9979aced.js",
+        "hash": "f7251e596942b2e0622c242f3fa2a53520248ace8cf50d8f6d28509603bf95d7"
+      },
+      {
+        "path": "appserver/static/js/build/733.db3d9d308b1e9979aced.js.LICENSE.txt",
+        "hash": "cdf963ced7d25a0f98901a547647b4d6e2dbe0197fd78c87a059a87b0e542fe2"
+      },
+      {
+        "path": "appserver/static/js/build/733.db3d9d308b1e9979aced.js.map",
+        "hash": "6dfee6439642c818be3002f296b8aa34c37d2a33272cd3940660383c760c5d06"
+      },
+      {
+        "path": "appserver/static/js/build/733.licenses.txt",
+        "hash": "31ddc0d4c580685bea09d148e84d24b5117fb56bb44d3a0f1741f0505369eb81"
+      },
+      {
+        "path": "appserver/static/js/build/748.c985c52c33fbdbe41613.js",
+        "hash": "1f3fd316d8c47ab9883c525b2bc1eeec44deecacbcaabd04e45c9e06c6b3981e"
+      },
+      {
+        "path": "appserver/static/js/build/748.c985c52c33fbdbe41613.js.map",
+        "hash": "bb681174c2db8f7d0e2126f8933b4ca5916dcfdc315f391a50a808b9d2492754"
+      },
+      {
+        "path": "appserver/static/js/build/748.licenses.txt",
+        "hash": "31ddc0d4c580685bea09d148e84d24b5117fb56bb44d3a0f1741f0505369eb81"
+      },
+      {
+        "path": "appserver/static/js/build/943.3b75241faff0bef3783e.js",
+        "hash": "0962bbcf865ba0260a410805789c32f66f4f0f3d4ec0c38af633ecc4a35c341d"
+      },
+      {
+        "path": "appserver/static/js/build/943.3b75241faff0bef3783e.js.map",
+        "hash": "8744d1e254b85e4ef5a9e78f087c17e7bc333ef274f320d1ca8b76001ff53d1e"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.js",
+        "hash": "f49c4330660a55f465e236571866275ccf38b11239282c225d0f7ebc020e3719"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.js.LICENSE.txt",
+        "hash": "3755a6f0a45bcbd35cb6197c7b24879c633725ae41f414886a6dc135886778c8"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.js.map",
+        "hash": "4d8e3b49489e662dd09ff1821b000502636b846b292680be9c89da4a1bece119"
+      },
+      {
+        "path": "appserver/static/js/build/entry_page.licenses.txt",
+        "hash": "769b85b4ac92bc849fd8b9d11258e24397f4556b0674692ceccb4fa1f59494b5"
+      },
+      {
+        "path": "appserver/static/js/build/globalConfig.json",
+        "hash": "890c16bbf71c031129de0bd072f9a0b15c76ad4e3c9ba39a412e895cfc95537b"
+      }
+    ]
+  },
+  "products": [
+    {
+      "platform": "splunk",
+      "product": "enterprise",
+      "versions": [
+        "8.0",
+        "8.1",
+        "8.2",
+        "9.0",
+        "9.1",
+        "9.2",
+        "9.3"
+      ],
+      "architectures": [
+        "x86_64"
+      ],
+      "operatingSystems": [
+        "windows",
+        "linux",
+        "macos",
+        "freebsd",
+        "solaris",
+        "aix"
+      ]
+    }
+  ]
+}

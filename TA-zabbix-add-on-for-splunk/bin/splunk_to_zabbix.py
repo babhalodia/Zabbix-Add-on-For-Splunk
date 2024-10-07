@@ -16,13 +16,6 @@ class AlertActionWorkersplunk_to_zabbix(ModularAlertBase):
 
     def validate_params(self):
 
-        if not self.get_global_setting("zabbix_server_url_ip"):
-            self.log_error('zabbix_server_url_ip is a mandatory setup parameter, but its value is None.')
-            return False
-
-        if not self.get_global_setting("zabbix_server_port"):
-            self.log_error('zabbix_server_port is a mandatory setup parameter, but its value is None.')
-            return False
         return True
 
     def process_event(self, *args, **kwargs):

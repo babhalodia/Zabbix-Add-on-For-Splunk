@@ -1,6 +1,6 @@
 # coding=utf-8
 #
-# Copyright © 2011-2015 Splunk, Inc.
+# Copyright © 2011-2024 Splunk, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License"): you may
 # not use this file except in compliance with the License. You may obtain
@@ -14,8 +14,6 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-from __future__ import absolute_import, division, print_function, unicode_literals
-
 from itertools import chain
 
 from .internals import ConfigurationSettingsType, json_encode_string
@@ -23,7 +21,6 @@ from .decorators import ConfigurationSetting, Option
 from .streaming_command import StreamingCommand
 from .search_command import SearchCommand
 from .validators import Set
-from splunklib import six
 
 
 class ReportingCommand(SearchCommand):
@@ -94,7 +91,7 @@ class ReportingCommand(SearchCommand):
             self._configuration.streaming_preop = ' '.join(streaming_preop)
             return
 
-        raise RuntimeError('Unrecognized reporting command phase: {}'.format(json_encode_string(six.text_type(phase))))
+        raise RuntimeError(f'Unrecognized reporting command phase: {json_encode_string(str(phase))}')
 
     def reduce(self, records):
         """ Override this method to produce a reporting data structure.
@@ -244,7 +241,7 @@ class ReportingCommand(SearchCommand):
 
             """
             if not issubclass(command, ReportingCommand):
-                raise TypeError('{} is not a ReportingCommand'.format( command))
+                raise TypeError(f'{command} is not a ReportingCommand')
 
             if command.reduce == ReportingCommand.reduce:
                 raise AttributeError('No ReportingCommand.reduce override')
@@ -253,7 +250,7 @@ class ReportingCommand(SearchCommand):
                 cls._requires_preop = False
                 return
 
-            f = vars(command)[b'map']   # Function backing the map method
+            f = vars(command)['map']   # Function backing the map method
 
             # EXPLANATION OF PREVIOUS STATEMENT: There is no way to add custom attributes to methods. See [Why does
             # setattr fail on a method](http://stackoverflow.com/questions/7891277/why-does-setattr-fail-on-a-bound-method) for a discussion of this issue.
@@ -266,7 +263,7 @@ class ReportingCommand(SearchCommand):
 
             # Create new StreamingCommand.ConfigurationSettings class
 
-            module = command.__module__ + b'.' + command.__name__ + b'.map'
+            module = command.__module__ + '.' + command.__name__ + '.map'
             name = b'ConfigurationSettings'
             bases = (StreamingCommand.ConfigurationSettings,)
 
@@ -274,8 +271,7 @@ class ReportingCommand(SearchCommand):
             ConfigurationSetting.fix_up(f.ConfigurationSettings, settings)
             del f._settings
 
-        pass
+
         # endregion
 
-    pass
     # endregion
